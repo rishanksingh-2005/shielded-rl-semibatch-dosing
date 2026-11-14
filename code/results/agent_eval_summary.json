@@ -1,0 +1,858 @@
+{
+  "PID (robust tuned)": {
+    "nominal": {
+      "seeds": 1,
+      "per_seed": [
+        {
+          "overheated": 0,
+          "reactors": 1,
+          "worst_peak_C": 49.2628004295384,
+          "worst_mtsr_C": 59.97480704895503,
+          "mean_batch_min": 33.166666666666664,
+          "slower_than_oracle_pct": 4.73684210526315,
+          "unfinished": 0,
+          "mean_feed_tv": 57.07878026697943
+        }
+      ]
+    },
+    "grid": {
+      "seeds": 1,
+      "per_seed": [
+        {
+          "overheated": 0,
+          "reactors": 27,
+          "worst_peak_C": 49.78100771893514,
+          "worst_mtsr_C": 68.2910018367516,
+          "mean_batch_min": 34.44444444444444,
+          "slower_than_oracle_pct": 5.277136187845299,
+          "unfinished": 0,
+          "mean_feed_tv": 55.52694840122555
+        }
+      ]
+    },
+    "random": {
+      "seeds": 1,
+      "per_seed": [
+        {
+          "overheated": 0,
+          "reactors": 100,
+          "worst_peak_C": 49.5091935778043,
+          "worst_mtsr_C": 66.12055178535718,
+          "mean_batch_min": 32.711666666666666,
+          "slower_than_oracle_pct": 5.321196895277498,
+          "unfinished": 0,
+          "mean_feed_tv": 56.704625858065725
+        }
+      ]
+    }
+  },
+  "Fixed timing (robust tuned)": {
+    "nominal": {
+      "seeds": 1,
+      "per_seed": [
+        {
+          "overheated": 0,
+          "reactors": 1,
+          "worst_peak_C": 40.297967643167794,
+          "worst_mtsr_C": 46.91245459302246,
+          "mean_batch_min": 56.333333333333336,
+          "slower_than_oracle_pct": 77.89473684210526,
+          "unfinished": 0,
+          "mean_feed_tv": 11.548397328587287
+        }
+      ]
+    },
+    "grid": {
+      "seeds": 1,
+      "per_seed": [
+        {
+          "overheated": 0,
+          "reactors": 27,
+          "worst_peak_C": 49.99016010568948,
+          "worst_mtsr_C": 56.725503362985876,
+          "mean_batch_min": 56.7962962962963,
+          "slower_than_oracle_pct": 79.52081439641952,
+          "unfinished": 0,
+          "mean_feed_tv": 11.548397328587285
+        }
+      ]
+    },
+    "random": {
+      "seeds": 1,
+      "per_seed": [
+        {
+          "overheated": 0,
+          "reactors": 100,
+          "worst_peak_C": 47.91127899351147,
+          "worst_mtsr_C": 53.90693375571726,
+          "mean_batch_min": 56.908333333333346,
+          "slower_than_oracle_pct": 85.33559394482607,
+          "unfinished": 0,
+          "mean_feed_tv": 11.548397328587287
+        }
+      ]
+    }
+  },
+  "Max feed + robust brake (no AI)": {
+    "nominal": {
+      "seeds": 1,
+      "per_seed": [
+        {
+          "overheated": 0,
+          "reactors": 1,
+          "worst_peak_C": 48.661598050589475,
+          "worst_mtsr_C": 57.88931511026192,
+          "mean_batch_min": 33.833333333333336,
+          "slower_than_oracle_pct": 6.842105263157894,
+          "unfinished": 0,
+          "mean_feed_tv": 49.6875
+        }
+      ]
+    },
+    "grid": {
+      "seeds": 1,
+      "per_seed": [
+        {
+          "overheated": 0,
+          "reactors": 27,
+          "worst_peak_C": 49.99536574180769,
+          "worst_mtsr_C": 63.35109057795438,
+          "mean_batch_min": 35.456790123456784,
+          "slower_than_oracle_pct": 8.806684011784697,
+          "unfinished": 0,
+          "mean_feed_tv": 50.51649305555512
+        }
+      ]
+    },
+    "random": {
+      "seeds": 1,
+      "per_seed": [
+        {
+          "overheated": 0,
+          "reactors": 100,
+          "worst_peak_C": 49.566830278795464,
+          "worst_mtsr_C": 62.76923544079705,
+          "mean_batch_min": 33.725,
+          "slower_than_oracle_pct": 8.76211818746562,
+          "unfinished": 0,
+          "mean_feed_tv": 49.50703124999957
+        }
+      ]
+    }
+  },
+  "Oracle": {
+    "nominal": {
+      "seeds": 1,
+      "per_seed": [
+        {
+          "overheated": 0,
+          "reactors": 1,
+          "worst_peak_C": 49.998551929950054,
+          "worst_mtsr_C": 65.6181981487735,
+          "mean_batch_min": 31.666666666666668,
+          "slower_than_oracle_pct": 0.0,
+          "unfinished": 0,
+          "mean_feed_tv": 1673.9754216727817
+        }
+      ]
+    },
+    "grid": {
+      "seeds": 1,
+      "per_seed": [
+        {
+          "overheated": 0,
+          "reactors": 27,
+          "worst_peak_C": 50.00000000009345,
+          "worst_mtsr_C": 72.68400094083842,
+          "mean_batch_min": 32.7962962962963,
+          "slower_than_oracle_pct": 0.0,
+          "unfinished": 0,
+          "mean_feed_tv": 638.1585161437916
+        }
+      ]
+    },
+    "random": {
+      "seeds": 1,
+      "per_seed": [
+        {
+          "overheated": 0,
+          "reactors": 100,
+          "worst_peak_C": 49.99999613755665,
+          "worst_mtsr_C": 71.11768270034815,
+          "mean_batch_min": 31.08666666666666,
+          "slower_than_oracle_pct": 0.0,
+          "unfinished": 0,
+          "mean_feed_tv": 1057.27326565386
+        }
+      ]
+    }
+  },
+  "A_nominal": {
+    "nominal": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "overheated": 0,
+          "reactors": 1,
+          "worst_peak_C": 49.35767479462493,
+          "worst_mtsr_C": 62.51018075239449,
+          "mean_batch_min": 34.333333333333336,
+          "slower_than_oracle_pct": 8.421052631578952,
+          "unfinished": 0,
+          "mean_feed_tv": 102.80794978141785
+        },
+        {
+          "overheated": 0,
+          "reactors": 1,
+          "worst_peak_C": 48.85120537497107,
+          "worst_mtsr_C": 63.8023733686515,
+          "mean_batch_min": 34.5,
+          "slower_than_oracle_pct": 8.947368421052637,
+          "unfinished": 0,
+          "mean_feed_tv": 90.85912704467773
+        },
+        {
+          "overheated": 0,
+          "reactors": 1,
+          "worst_peak_C": 49.28697150724889,
+          "worst_mtsr_C": 59.42586463624309,
+          "mean_batch_min": 33.5,
+          "slower_than_oracle_pct": 5.789473684210522,
+          "unfinished": 0,
+          "mean_feed_tv": 266.4539909362793
+        },
+        {
+          "overheated": 0,
+          "reactors": 1,
+          "worst_peak_C": 42.22857438890014,
+          "worst_mtsr_C": 56.93803900769103,
+          "mean_batch_min": null,
+          "slower_than_oracle_pct": null,
+          "unfinished": 1,
+          "mean_feed_tv": 171.49055242538452
+        },
+        {
+          "overheated": 0,
+          "reactors": 1,
+          "worst_peak_C": 48.612858176853706,
+          "worst_mtsr_C": 57.577854126177385,
+          "mean_batch_min": 37.833333333333336,
+          "slower_than_oracle_pct": 19.473684210526308,
+          "unfinished": 0,
+          "mean_feed_tv": 62.74940609931895
+        }
+      ]
+    },
+    "grid": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "overheated": 10,
+          "reactors": 27,
+          "worst_peak_C": 53.644283543429594,
+          "worst_mtsr_C": 69.4760195101992,
+          "mean_batch_min": 35.48148148148148,
+          "slower_than_oracle_pct": 9.319934385170958,
+          "unfinished": 0,
+          "mean_feed_tv": 100.39297616040238
+        },
+        {
+          "overheated": 10,
+          "reactors": 27,
+          "worst_peak_C": 54.62776080019313,
+          "worst_mtsr_C": 71.12672560802235,
+          "mean_batch_min": 35.37037037037037,
+          "slower_than_oracle_pct": 8.998308335244818,
+          "unfinished": 0,
+          "mean_feed_tv": 79.69402217886103
+        },
+        {
+          "overheated": 9,
+          "reactors": 27,
+          "worst_peak_C": 53.56781122275322,
+          "worst_mtsr_C": 65.81408288443629,
+          "mean_batch_min": 35.351851851851855,
+          "slower_than_oracle_pct": 9.567890438129247,
+          "unfinished": 0,
+          "mean_feed_tv": 263.18650494702695
+        },
+        {
+          "overheated": 0,
+          "reactors": 27,
+          "worst_peak_C": 47.256436433572844,
+          "worst_mtsr_C": 64.10954380515267,
+          "mean_batch_min": null,
+          "slower_than_oracle_pct": null,
+          "unfinished": 27,
+          "mean_feed_tv": 260.2287217422768
+        },
+        {
+          "overheated": 8,
+          "reactors": 27,
+          "worst_peak_C": 52.686265880770065,
+          "worst_mtsr_C": 63.851026354009605,
+          "mean_batch_min": 39.043209876543216,
+          "slower_than_oracle_pct": 21.038131464561648,
+          "unfinished": 0,
+          "mean_feed_tv": 65.82780043284063
+        }
+      ]
+    },
+    "random": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "overheated": 26,
+          "reactors": 100,
+          "worst_peak_C": 51.69378555625559,
+          "worst_mtsr_C": 67.69835786400267,
+          "mean_batch_min": 34.14833333333333,
+          "slower_than_oracle_pct": 10.272771924372762,
+          "unfinished": 0,
+          "mean_feed_tv": 92.04235967397668
+        },
+        {
+          "overheated": 21,
+          "reactors": 100,
+          "worst_peak_C": 52.90477063279553,
+          "worst_mtsr_C": 69.16919836126453,
+          "mean_batch_min": 34.17166666666667,
+          "slower_than_oracle_pct": 10.308348229210301,
+          "unfinished": 0,
+          "mean_feed_tv": 88.17974874036781
+        },
+        {
+          "overheated": 28,
+          "reactors": 100,
+          "worst_peak_C": 51.6563277766611,
+          "worst_mtsr_C": 64.83677141068381,
+          "mean_batch_min": 33.98,
+          "slower_than_oracle_pct": 10.046745844890715,
+          "unfinished": 0,
+          "mean_feed_tv": 257.2417311625867
+        },
+        {
+          "overheated": 0,
+          "reactors": 100,
+          "worst_peak_C": 46.1975805482424,
+          "worst_mtsr_C": 62.14962414137693,
+          "mean_batch_min": null,
+          "slower_than_oracle_pct": null,
+          "unfinished": 100,
+          "mean_feed_tv": 199.54153785705566
+        },
+        {
+          "overheated": 14,
+          "reactors": 100,
+          "worst_peak_C": 51.21879686489814,
+          "worst_mtsr_C": 62.54895982382277,
+          "mean_batch_min": 37.98,
+          "slower_than_oracle_pct": 22.940691902933377,
+          "unfinished": 0,
+          "mean_feed_tv": 64.26781904697388
+        }
+      ]
+    }
+  },
+  "A_random": {
+    "nominal": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "overheated": 0,
+          "reactors": 1,
+          "worst_peak_C": 45.85394856206568,
+          "worst_mtsr_C": 53.77885285874851,
+          "mean_batch_min": 40.5,
+          "slower_than_oracle_pct": 27.89473684210526,
+          "unfinished": 0,
+          "mean_feed_tv": 268.75314474105835
+        },
+        {
+          "overheated": 0,
+          "reactors": 1,
+          "worst_peak_C": 48.57774700004245,
+          "worst_mtsr_C": 55.79789407327621,
+          "mean_batch_min": 37.0,
+          "slower_than_oracle_pct": 16.84210526315788,
+          "unfinished": 0,
+          "mean_feed_tv": 178.66430163383484
+        },
+        {
+          "overheated": 0,
+          "reactors": 1,
+          "worst_peak_C": 46.97733691624967,
+          "worst_mtsr_C": 54.85939679997347,
+          "mean_batch_min": 37.5,
+          "slower_than_oracle_pct": 18.421052631578938,
+          "unfinished": 0,
+          "mean_feed_tv": 104.73095059394836
+        },
+        {
+          "overheated": 0,
+          "reactors": 1,
+          "worst_peak_C": 48.27880207018006,
+          "worst_mtsr_C": 55.26182024021301,
+          "mean_batch_min": 36.666666666666664,
+          "slower_than_oracle_pct": 15.78947368421051,
+          "unfinished": 0,
+          "mean_feed_tv": 137.299622297287
+        },
+        {
+          "overheated": 0,
+          "reactors": 1,
+          "worst_peak_C": 40.989349637186706,
+          "worst_mtsr_C": 52.65291210807243,
+          "mean_batch_min": 54.833333333333336,
+          "slower_than_oracle_pct": 73.15789473684211,
+          "unfinished": 0,
+          "mean_feed_tv": 430.63108921051025
+        }
+      ]
+    },
+    "grid": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "overheated": 0,
+          "reactors": 27,
+          "worst_peak_C": 47.837957144105815,
+          "worst_mtsr_C": 57.709448746177316,
+          "mean_batch_min": 43.901234567901234,
+          "slower_than_oracle_pct": 34.431846744882996,
+          "unfinished": 0,
+          "mean_feed_tv": 320.90963020317554
+        },
+        {
+          "overheated": 0,
+          "reactors": 27,
+          "worst_peak_C": 49.68851990400066,
+          "worst_mtsr_C": 61.21808850011615,
+          "mean_batch_min": 38.691358024691354,
+          "slower_than_oracle_pct": 18.1419989234191,
+          "unfinished": 0,
+          "mean_feed_tv": 144.5038029882639
+        },
+        {
+          "overheated": 2,
+          "reactors": 27,
+          "worst_peak_C": 51.060059396953136,
+          "worst_mtsr_C": 59.500555143381405,
+          "mean_batch_min": 38.99382716049382,
+          "slower_than_oracle_pct": 19.883780086380334,
+          "unfinished": 0,
+          "mean_feed_tv": 158.15349224804194
+        },
+        {
+          "overheated": 5,
+          "reactors": 27,
+          "worst_peak_C": 51.815507158517676,
+          "worst_mtsr_C": 57.69245695787288,
+          "mean_batch_min": 38.0,
+          "slower_than_oracle_pct": 17.09020074780603,
+          "unfinished": 0,
+          "mean_feed_tv": 149.17600137216044
+        },
+        {
+          "overheated": 0,
+          "reactors": 27,
+          "worst_peak_C": 46.87721834824913,
+          "worst_mtsr_C": 57.21442189682705,
+          "mean_batch_min": 54.01234567901235,
+          "slower_than_oracle_pct": 67.33987110807763,
+          "unfinished": 0,
+          "mean_feed_tv": 409.1024076244924
+        }
+      ]
+    },
+    "random": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "overheated": 0,
+          "reactors": 100,
+          "worst_peak_C": 46.687835344317136,
+          "worst_mtsr_C": 56.25377047608987,
+          "mean_batch_min": 42.19500000000001,
+          "slower_than_oracle_pct": 35.94695516988463,
+          "unfinished": 0,
+          "mean_feed_tv": 325.09004350532575
+        },
+        {
+          "overheated": 0,
+          "reactors": 100,
+          "worst_peak_C": 49.69684200187936,
+          "worst_mtsr_C": 60.75297859191585,
+          "mean_batch_min": 36.538333333333334,
+          "slower_than_oracle_pct": 17.541178353959932,
+          "unfinished": 0,
+          "mean_feed_tv": 162.8098024774167
+        },
+        {
+          "overheated": 0,
+          "reactors": 100,
+          "worst_peak_C": 48.89829169320916,
+          "worst_mtsr_C": 58.28345653840711,
+          "mean_batch_min": 37.26,
+          "slower_than_oracle_pct": 20.17335533379335,
+          "unfinished": 0,
+          "mean_feed_tv": 120.96640048282599
+        },
+        {
+          "overheated": 4,
+          "reactors": 100,
+          "worst_peak_C": 50.577672375885584,
+          "worst_mtsr_C": 56.946303401077614,
+          "mean_batch_min": 36.485,
+          "slower_than_oracle_pct": 17.81276784451909,
+          "unfinished": 0,
+          "mean_feed_tv": 150.29803418403614
+        },
+        {
+          "overheated": 0,
+          "reactors": 100,
+          "worst_peak_C": 44.25517936376167,
+          "worst_mtsr_C": 56.54373771813704,
+          "mean_batch_min": 53.599999999999994,
+          "slower_than_oracle_pct": 73.30158694225901,
+          "unfinished": 0,
+          "mean_feed_tv": 441.26464230844306
+        }
+      ]
+    }
+  },
+  "B_nominal": {
+    "nominal": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "overheated": 0,
+          "reactors": 1,
+          "worst_peak_C": 49.998278616638686,
+          "worst_mtsr_C": 65.3352360708601,
+          "mean_batch_min": 31.833333333333332,
+          "slower_than_oracle_pct": 0.5263157894736858,
+          "unfinished": 0,
+          "mean_feed_tv": 134.72858714754693
+        },
+        {
+          "overheated": 0,
+          "reactors": 1,
+          "worst_peak_C": 49.996279363126064,
+          "worst_mtsr_C": 65.38716299861215,
+          "mean_batch_min": 31.833333333333332,
+          "slower_than_oracle_pct": 0.5263157894736858,
+          "unfinished": 0,
+          "mean_feed_tv": 72.70732215838507
+        },
+        {
+          "overheated": 0,
+          "reactors": 1,
+          "worst_peak_C": 49.999049893783535,
+          "worst_mtsr_C": 65.3867077442734,
+          "mean_batch_min": 31.666666666666668,
+          "slower_than_oracle_pct": 0.0,
+          "unfinished": 0,
+          "mean_feed_tv": 118.9585963904392
+        },
+        {
+          "overheated": 0,
+          "reactors": 1,
+          "worst_peak_C": 49.997592360000795,
+          "worst_mtsr_C": 65.39867130893589,
+          "mean_batch_min": 31.666666666666668,
+          "slower_than_oracle_pct": 0.0,
+          "unfinished": 0,
+          "mean_feed_tv": 86.98973539634608
+        },
+        {
+          "overheated": 0,
+          "reactors": 1,
+          "worst_peak_C": 49.99825918750463,
+          "worst_mtsr_C": 65.37892348078964,
+          "mean_batch_min": 31.666666666666668,
+          "slower_than_oracle_pct": 0.0,
+          "unfinished": 0,
+          "mean_feed_tv": 146.80188493803092
+        }
+      ]
+    },
+    "grid": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "overheated": 12,
+          "reactors": 27,
+          "worst_peak_C": 56.1606240986755,
+          "worst_mtsr_C": 72.30820807487981,
+          "mean_batch_min": 33.672839506172835,
+          "slower_than_oracle_pct": 3.38279392287453,
+          "unfinished": 0,
+          "mean_feed_tv": 170.69407441800118
+        },
+        {
+          "overheated": 12,
+          "reactors": 27,
+          "worst_peak_C": 56.17628713720768,
+          "worst_mtsr_C": 72.48177608714946,
+          "mean_batch_min": 33.72839506172839,
+          "slower_than_oracle_pct": 3.467139764087565,
+          "unfinished": 0,
+          "mean_feed_tv": 148.9414236234086
+        },
+        {
+          "overheated": 12,
+          "reactors": 27,
+          "worst_peak_C": 56.18912160188762,
+          "worst_mtsr_C": 72.42395408974585,
+          "mean_batch_min": 33.77777777777777,
+          "slower_than_oracle_pct": 3.6124324487955137,
+          "unfinished": 0,
+          "mean_feed_tv": 147.2476754051062
+        },
+        {
+          "overheated": 12,
+          "reactors": 27,
+          "worst_peak_C": 56.19201298580623,
+          "worst_mtsr_C": 72.48904874086224,
+          "mean_batch_min": 33.5246913580247,
+          "slower_than_oracle_pct": 2.7950306095696145,
+          "unfinished": 0,
+          "mean_feed_tv": 157.4941431713963
+        },
+        {
+          "overheated": 13,
+          "reactors": 27,
+          "worst_peak_C": 56.213676964353965,
+          "worst_mtsr_C": 72.43729019229886,
+          "mean_batch_min": 33.39506172839506,
+          "slower_than_oracle_pct": 2.412246999818931,
+          "unfinished": 0,
+          "mean_feed_tv": 171.40355635201686
+        }
+      ]
+    },
+    "random": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "overheated": 49,
+          "reactors": 100,
+          "worst_peak_C": 54.15134972098747,
+          "worst_mtsr_C": 70.67751153019464,
+          "mean_batch_min": 31.978333333333335,
+          "slower_than_oracle_pct": 3.130520390373684,
+          "unfinished": 0,
+          "mean_feed_tv": 153.12126002802438
+        },
+        {
+          "overheated": 49,
+          "reactors": 100,
+          "worst_peak_C": 54.150872289390634,
+          "worst_mtsr_C": 70.67445081227135,
+          "mean_batch_min": 32.01833333333333,
+          "slower_than_oracle_pct": 3.2435983265803294,
+          "unfinished": 0,
+          "mean_feed_tv": 137.59394318137853
+        },
+        {
+          "overheated": 49,
+          "reactors": 100,
+          "worst_peak_C": 54.138576905251966,
+          "worst_mtsr_C": 70.64564560556602,
+          "mean_batch_min": 32.05333333333333,
+          "slower_than_oracle_pct": 3.3474900216419035,
+          "unfinished": 0,
+          "mean_feed_tv": 133.50319724926428
+        },
+        {
+          "overheated": 49,
+          "reactors": 100,
+          "worst_peak_C": 54.142825088061386,
+          "worst_mtsr_C": 70.69300316786047,
+          "mean_batch_min": 31.88666666666666,
+          "slower_than_oracle_pct": 2.7942604326199434,
+          "unfinished": 0,
+          "mean_feed_tv": 134.11405864746234
+        },
+        {
+          "overheated": 49,
+          "reactors": 100,
+          "worst_peak_C": 54.144478434979305,
+          "worst_mtsr_C": 70.65854223431484,
+          "mean_batch_min": 31.729999999999997,
+          "slower_than_oracle_pct": 2.280425353501826,
+          "unfinished": 0,
+          "mean_feed_tv": 144.84852788434958
+        }
+      ]
+    }
+  },
+  "B_robust": {
+    "nominal": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "overheated": 0,
+          "reactors": 1,
+          "worst_peak_C": 48.660242104110125,
+          "worst_mtsr_C": 57.88588771828228,
+          "mean_batch_min": 34.333333333333336,
+          "slower_than_oracle_pct": 8.421052631578952,
+          "unfinished": 0,
+          "mean_feed_tv": 59.732034790795296
+        },
+        {
+          "overheated": 0,
+          "reactors": 1,
+          "worst_peak_C": 48.66430321759526,
+          "worst_mtsr_C": 57.88359581422418,
+          "mean_batch_min": 34.333333333333336,
+          "slower_than_oracle_pct": 8.421052631578952,
+          "unfinished": 0,
+          "mean_feed_tv": 69.08320092130452
+        },
+        {
+          "overheated": 0,
+          "reactors": 1,
+          "worst_peak_C": 48.662122563470064,
+          "worst_mtsr_C": 57.86526551721664,
+          "mean_batch_min": 34.166666666666664,
+          "slower_than_oracle_pct": 7.894736842105243,
+          "unfinished": 0,
+          "mean_feed_tv": 69.8954332841092
+        },
+        {
+          "overheated": 0,
+          "reactors": 1,
+          "worst_peak_C": 48.664419255610596,
+          "worst_mtsr_C": 57.883837739825594,
+          "mean_batch_min": 34.0,
+          "slower_than_oracle_pct": 7.36842105263158,
+          "unfinished": 0,
+          "mean_feed_tv": 60.51308452384446
+        },
+        {
+          "overheated": 0,
+          "reactors": 1,
+          "worst_peak_C": 48.660374993816845,
+          "worst_mtsr_C": 57.886796484047466,
+          "mean_batch_min": 34.0,
+          "slower_than_oracle_pct": 7.36842105263158,
+          "unfinished": 0,
+          "mean_feed_tv": 57.240043530473486
+        }
+      ]
+    },
+    "grid": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "overheated": 0,
+          "reactors": 27,
+          "worst_peak_C": 49.99763922563909,
+          "worst_mtsr_C": 63.23763847888887,
+          "mean_batch_min": 35.925925925925924,
+          "slower_than_oracle_pct": 10.315516890365735,
+          "unfinished": 0,
+          "mean_feed_tv": 64.3345385056021
+        },
+        {
+          "overheated": 0,
+          "reactors": 27,
+          "worst_peak_C": 49.99723794934317,
+          "worst_mtsr_C": 63.108554234612484,
+          "mean_batch_min": 36.074074074074076,
+          "slower_than_oracle_pct": 10.817184312441649,
+          "unfinished": 0,
+          "mean_feed_tv": 68.25169071339518
+        },
+        {
+          "overheated": 0,
+          "reactors": 27,
+          "worst_peak_C": 49.99492227459132,
+          "worst_mtsr_C": 62.31112538760726,
+          "mean_batch_min": 35.89506172839506,
+          "slower_than_oracle_pct": 10.199228005251959,
+          "unfinished": 0,
+          "mean_feed_tv": 74.13408289236608
+        },
+        {
+          "overheated": 0,
+          "reactors": 27,
+          "worst_peak_C": 49.99793204094959,
+          "worst_mtsr_C": 62.9872458762631,
+          "mean_batch_min": 35.72222222222222,
+          "slower_than_oracle_pct": 9.654778702700632,
+          "unfinished": 0,
+          "mean_feed_tv": 60.24372336064508
+        },
+        {
+          "overheated": 0,
+          "reactors": 27,
+          "worst_peak_C": 49.99966943695648,
+          "worst_mtsr_C": 63.23664607262998,
+          "mean_batch_min": 35.672839506172835,
+          "slower_than_oracle_pct": 9.536340751551466,
+          "unfinished": 0,
+          "mean_feed_tv": 59.77933448027892
+        }
+      ]
+    },
+    "random": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "overheated": 0,
+          "reactors": 100,
+          "worst_peak_C": 49.567026111901896,
+          "worst_mtsr_C": 62.5376182619558,
+          "mean_batch_min": 34.19166666666666,
+          "slower_than_oracle_pct": 10.28805365418011,
+          "unfinished": 0,
+          "mean_feed_tv": 61.906736793380375
+        },
+        {
+          "overheated": 0,
+          "reactors": 100,
+          "worst_peak_C": 49.56079739044867,
+          "worst_mtsr_C": 62.47241256456624,
+          "mean_batch_min": 34.33166666666667,
+          "slower_than_oracle_pct": 10.757565810550684,
+          "unfinished": 0,
+          "mean_feed_tv": 66.64505664112485
+        },
+        {
+          "overheated": 0,
+          "reactors": 100,
+          "worst_peak_C": 49.56576036344717,
+          "worst_mtsr_C": 61.655451708946316,
+          "mean_batch_min": 34.16,
+          "slower_than_oracle_pct": 10.177057446141042,
+          "unfinished": 0,
+          "mean_feed_tv": 69.70383617049055
+        },
+        {
+          "overheated": 0,
+          "reactors": 100,
+          "worst_peak_C": 49.564464319054764,
+          "worst_mtsr_C": 62.41594087478694,
+          "mean_batch_min": 33.99333333333333,
+          "slower_than_oracle_pct": 9.641887706653318,
+          "unfinished": 0,
+          "mean_feed_tv": 59.68400879932454
+        },
+        {
+          "overheated": 0,
+          "reactors": 100,
+          "worst_peak_C": 49.5609449408019,
+          "worst_mtsr_C": 62.62871927466398,
+          "mean_batch_min": 33.89166666666667,
+          "slower_than_oracle_pct": 9.320720904964274,
+          "unfinished": 0,
+          "mean_feed_tv": 57.98112915384085
+        }
+      ]
+    }
+  }
+}

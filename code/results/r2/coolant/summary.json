@@ -1,0 +1,101 @@
+{
+ "Const feed + coolant PI (no brake)": {
+  "seeds": 1,
+  "test": 127,
+  "overheated": 109,
+  "unfinished": 0,
+  "mean_iae": 91179.10448234587,
+  "worst_peak_K": 395.1793676126961,
+  "cf_tests": 12,
+  "cf_overheated": 10,
+  "cf_worst_peak_K": 380.1384000286359
+ },
+ "Max feed + brake A (no AI)": {
+  "seeds": 1,
+  "test": 127,
+  "overheated": 0,
+  "unfinished": 4,
+  "mean_iae": 135700.92622738844,
+  "worst_peak_K": 373.00000091216526,
+  "cf_tests": 12,
+  "cf_overheated": 0,
+  "cf_worst_peak_K": 372.4653186758978
+ },
+ "Coolant PI + max feed + brake A": {
+  "seeds": 1,
+  "test": 127,
+  "overheated": 0,
+  "unfinished": 0,
+  "mean_iae": 89556.58448435423,
+  "worst_peak_K": 372.99998886199603,
+  "cf_tests": 12,
+  "cf_overheated": 1,
+  "cf_worst_peak_K": 374.1865120131955
+ },
+ "Max feed + brake B (no AI)": {
+  "seeds": 1,
+  "test": 127,
+  "overheated": 0,
+  "unfinished": 4,
+  "mean_iae": 136404.9846908622,
+  "worst_peak_K": 372.9999854574764,
+  "cf_tests": 12,
+  "cf_overheated": 0,
+  "cf_worst_peak_K": 372.28071539165114
+ },
+ "Coolant PI + max feed + brake B": {
+  "seeds": 1,
+  "test": 127,
+  "overheated": 0,
+  "unfinished": 0,
+  "mean_iae": 91260.31506430834,
+  "worst_peak_K": 372.99999794666553,
+  "cf_tests": 12,
+  "cf_overheated": 1,
+  "cf_worst_peak_K": 373.1681744826438
+ },
+ "B_cool_A": {
+  "seeds": 5,
+  "test": 635,
+  "overheated": 0,
+  "unfinished": 469,
+  "mean_iae": 106802.58181578529,
+  "worst_peak_K": 372.9999988077255,
+  "cf_tests": 60,
+  "cf_overheated": 0,
+  "cf_worst_peak_K": 372.99698480984483
+ },
+ "B_cool_B": {
+  "seeds": 5,
+  "test": 635,
+  "overheated": 0,
+  "unfinished": 327,
+  "mean_iae": 99235.63398320506,
+  "worst_peak_K": 372.99997764608685,
+  "cf_tests": 60,
+  "cf_overheated": 0,
+  "cf_worst_peak_K": 371.8329819693294
+ },
+ "B_coolF_A": {
+  "seeds": 5,
+  "test": 635,
+  "overheated": 0,
+  "unfinished": 159,
+  "mean_iae": 103820.45621224126,
+  "worst_peak_K": 373.00000063780163,
+  "cf_tests": 60,
+  "cf_overheated": 2,
+  "cf_worst_peak_K": 373.32417523088094
+ },
+ "B_coolF_B": {
+  "seeds": 5,
+  "test": 635,
+  "overheated": 0,
+  "unfinished": 21,
+  "mean_iae": 101453.92664163181,
+  "worst_peak_K": 372.99999953153116,
+  "cf_tests": 60,
+  "cf_overheated": 0,
+  "cf_worst_peak_K": 371.7223604624085
+ }
+}

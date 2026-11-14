@@ -1,0 +1,1650 @@
+{
+  "PI (best tracking)": {
+    "nominal": {
+      "seeds": 1,
+      "per_seed": [
+        {
+          "reactors": 1,
+          "overheated": 1,
+          "worst_peak_K": 380.46203408812505,
+          "unfinished": 0,
+          "mean_feed_min": 178.33333333333334,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 5800.0,
+          "mean_iae": 99492.70182850356,
+          "mean_mdc_max": 0.07897693328202171,
+          "mean_mdc_pos_s": 950.0,
+          "worst_mtsr_K": 398.2523106086283,
+          "mean_valve_moves": 293.2356381807383
+        }
+      ]
+    },
+    "grid": {
+      "seeds": 1,
+      "per_seed": [
+        {
+          "reactors": 27,
+          "overheated": 17,
+          "worst_peak_K": 418.1727003056538,
+          "unfinished": 2,
+          "mean_feed_min": 179.09999999999997,
+          "reached_sp": 24,
+          "mean_time_to_sp_s": 4589.583333333333,
+          "mean_iae": 139767.26732863596,
+          "mean_mdc_max": 0.07243538117241416,
+          "mean_mdc_pos_s": 983.3333333333334,
+          "worst_mtsr_K": 434.74600018708765,
+          "mean_valve_moves": 310.4197143402031
+        }
+      ]
+    },
+    "random": {
+      "seeds": 1,
+      "per_seed": [
+        {
+          "reactors": 100,
+          "overheated": 71,
+          "worst_peak_K": 416.662046299859,
+          "unfinished": 0,
+          "mean_feed_min": 174.51666666666668,
+          "reached_sp": 95,
+          "mean_time_to_sp_s": 4516.315789473684,
+          "mean_iae": 127329.7235487651,
+          "mean_mdc_max": 0.08178073564558984,
+          "mean_mdc_pos_s": 1049.5,
+          "worst_mtsr_K": 426.04523581004014,
+          "mean_valve_moves": 305.88041278411305
+        }
+      ]
+    },
+    "cooling_failure": {
+      "tests": 12,
+      "overheated": 10,
+      "worst_peak_K": 380.46203408812505
+    }
+  },
+  "PI + robust brake": {
+    "nominal": {
+      "seeds": 1,
+      "per_seed": [
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 359.02847329293894,
+          "unfinished": 0,
+          "mean_feed_min": 207.5,
+          "reached_sp": 0,
+          "mean_time_to_sp_s": null,
+          "mean_iae": 192390.72309640443,
+          "mean_mdc_max": 0.045114072192689786,
+          "mean_mdc_pos_s": 850.0,
+          "worst_mtsr_K": 403.9596039500743,
+          "mean_valve_moves": 481.28520912662714
+        }
+      ]
+    },
+    "grid": {
+      "seeds": 1,
+      "per_seed": [
+        {
+          "reactors": 27,
+          "overheated": 0,
+          "worst_peak_K": 369.65959806696134,
+          "unfinished": 10,
+          "mean_feed_min": 218.18627450980395,
+          "reached_sp": 7,
+          "mean_time_to_sp_s": 3007.1428571428573,
+          "mean_iae": 258265.24217284794,
+          "mean_mdc_max": 0.02606586593591696,
+          "mean_mdc_pos_s": 1283.3333333333333,
+          "worst_mtsr_K": 427.11528068374173,
+          "mean_valve_moves": 414.0733871620628
+        }
+      ]
+    },
+    "random": {
+      "seeds": 1,
+      "per_seed": [
+        {
+          "reactors": 100,
+          "overheated": 0,
+          "worst_peak_K": 367.37483476234496,
+          "unfinished": 38,
+          "mean_feed_min": 209.83870967741936,
+          "reached_sp": 16,
+          "mean_time_to_sp_s": 3084.375,
+          "mean_iae": 257181.92526690752,
+          "mean_mdc_max": 0.03631103243953475,
+          "mean_mdc_pos_s": 1508.0,
+          "worst_mtsr_K": 429.2301048937303,
+          "mean_valve_moves": 462.1166631692034
+        }
+      ]
+    },
+    "cooling_failure": {
+      "tests": 12,
+      "overheated": 0,
+      "worst_peak_K": 362.3879409708461
+    }
+  },
+  "Max feed + robust brake (no AI)": {
+    "nominal": {
+      "seeds": 1,
+      "per_seed": [
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 370.8795122457591,
+          "unfinished": 0,
+          "mean_feed_min": 165.0,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 9450.0,
+          "mean_iae": 106343.18505011669,
+          "mean_mdc_max": 0.04671879136295748,
+          "mean_mdc_pos_s": 900.0,
+          "worst_mtsr_K": 396.6095616377198,
+          "mean_valve_moves": 297.15186843721585
+        }
+      ]
+    },
+    "grid": {
+      "seeds": 1,
+      "per_seed": [
+        {
+          "reactors": 27,
+          "overheated": 0,
+          "worst_peak_K": 372.9999854574764,
+          "unfinished": 2,
+          "mean_feed_min": 175.9333333333333,
+          "reached_sp": 15,
+          "mean_time_to_sp_s": 5316.666666666667,
+          "mean_iae": 163932.02471907347,
+          "mean_mdc_max": 0.03652515394932377,
+          "mean_mdc_pos_s": 1066.6666666666667,
+          "worst_mtsr_K": 409.49728149889813,
+          "mean_valve_moves": 418.9301892279976
+        }
+      ]
+    },
+    "random": {
+      "seeds": 1,
+      "per_seed": [
+        {
+          "reactors": 100,
+          "overheated": 0,
+          "worst_peak_K": 372.255024457109,
+          "unfinished": 2,
+          "mean_feed_min": 166.25,
+          "reached_sp": 81,
+          "mean_time_to_sp_s": 5245.061728395061,
+          "mean_iae": 128851.26938926626,
+          "mean_mdc_max": 0.04139238662957071,
+          "mean_mdc_pos_s": 1221.0,
+          "worst_mtsr_K": 405.5666153148736,
+          "mean_valve_moves": 347.0653748608531
+        }
+      ]
+    },
+    "cooling_failure": {
+      "tests": 12,
+      "overheated": 0,
+      "worst_peak_K": 372.28071539165114
+    }
+  },
+  "Oracle brake": {
+    "nominal": {
+      "seeds": 1,
+      "per_seed": [
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 372.99998827740745,
+          "unfinished": 0,
+          "mean_feed_min": 171.66666666666666,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 2700.0,
+          "mean_iae": 95547.14598814916,
+          "mean_mdc_max": 0.0919616933976769,
+          "mean_mdc_pos_s": 850.0,
+          "worst_mtsr_K": 398.3740636994491,
+          "mean_valve_moves": 904.823517459012
+        }
+      ]
+    },
+    "grid": {
+      "seeds": 1,
+      "per_seed": [
+        {
+          "reactors": 27,
+          "overheated": 0,
+          "worst_peak_K": 372.9999997875785,
+          "unfinished": 0,
+          "mean_feed_min": 175.83333333333334,
+          "reached_sp": 25,
+          "mean_time_to_sp_s": 4920.0,
+          "mean_iae": 112484.27930232657,
+          "mean_mdc_max": 0.07896042961898354,
+          "mean_mdc_pos_s": 961.1111111111111,
+          "worst_mtsr_K": 424.099103377399,
+          "mean_valve_moves": 959.3762655378173
+        }
+      ]
+    },
+    "random": {
+      "seeds": 1,
+      "per_seed": [
+        {
+          "reactors": 100,
+          "overheated": 0,
+          "worst_peak_K": 372.99999983134086,
+          "unfinished": 0,
+          "mean_feed_min": 166.5,
+          "reached_sp": 98,
+          "mean_time_to_sp_s": 4130.6122448979595,
+          "mean_iae": 103103.84124306405,
+          "mean_mdc_max": 0.08764837543404959,
+          "mean_mdc_pos_s": 986.5,
+          "worst_mtsr_K": 413.8302339368365,
+          "mean_valve_moves": 814.8945251013897
+        }
+      ]
+    },
+    "cooling_failure": {
+      "tests": 12,
+      "overheated": 3,
+      "worst_peak_K": 374.83960280186153
+    }
+  },
+  "A_nominal": {
+    "nominal": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 364.9292103019007,
+          "unfinished": 0,
+          "mean_feed_min": 184.16666666666666,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 2600.0,
+          "mean_iae": 84604.00139914668,
+          "mean_mdc_max": 0.027271294507446753,
+          "mean_mdc_pos_s": 1050.0,
+          "worst_mtsr_K": 397.30861040695186,
+          "mean_valve_moves": 296.4752655800546
+        },
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 363.4089302698849,
+          "unfinished": 0,
+          "mean_feed_min": 185.83333333333334,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 3300.0,
+          "mean_iae": 91929.4901910902,
+          "mean_mdc_max": 0.01084655674944765,
+          "mean_mdc_pos_s": 900.0,
+          "worst_mtsr_K": 397.6989522949184,
+          "mean_valve_moves": 319.8572048119142
+        },
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 364.54711374923363,
+          "unfinished": 0,
+          "mean_feed_min": 185.0,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 2850.0,
+          "mean_iae": 86675.13393603903,
+          "mean_mdc_max": 0.012523615740129695,
+          "mean_mdc_pos_s": 1000.0,
+          "worst_mtsr_K": 396.3070332660984,
+          "mean_valve_moves": 436.4074083740054
+        },
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 363.92341738291344,
+          "unfinished": 0,
+          "mean_feed_min": 186.66666666666666,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 4650.0,
+          "mean_iae": 99213.19017688773,
+          "mean_mdc_max": 0.031485014480182094,
+          "mean_mdc_pos_s": 950.0,
+          "worst_mtsr_K": 398.02314908692284,
+          "mean_valve_moves": 330.44592763740627
+        },
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 364.1587981510576,
+          "unfinished": 0,
+          "mean_feed_min": 189.16666666666666,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 4300.0,
+          "mean_iae": 111519.46353515115,
+          "mean_mdc_max": 0.016484697541172127,
+          "mean_mdc_pos_s": 1000.0,
+          "worst_mtsr_K": 399.17037093232517,
+          "mean_valve_moves": 281.9356694396526
+        }
+      ]
+    },
+    "grid": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "reactors": 27,
+          "overheated": 9,
+          "worst_peak_K": 376.9141287213265,
+          "unfinished": 0,
+          "mean_feed_min": 189.69135802469134,
+          "reached_sp": 18,
+          "mean_time_to_sp_s": 2825.0,
+          "mean_iae": 152281.48622205455,
+          "mean_mdc_max": 0.019050184736363992,
+          "mean_mdc_pos_s": 1196.2962962962963,
+          "worst_mtsr_K": 456.13294071318046,
+          "mean_valve_moves": 262.00248699692725
+        },
+        {
+          "reactors": 27,
+          "overheated": 2,
+          "worst_peak_K": 375.62531277175805,
+          "unfinished": 3,
+          "mean_feed_min": 192.88194444444446,
+          "reached_sp": 18,
+          "mean_time_to_sp_s": 5083.333333333333,
+          "mean_iae": 153861.76670462821,
+          "mean_mdc_max": 0.006491792600661163,
+          "mean_mdc_pos_s": 1035.1851851851852,
+          "worst_mtsr_K": 410.67579909674015,
+          "mean_valve_moves": 310.2821623460597
+        },
+        {
+          "reactors": 27,
+          "overheated": 5,
+          "worst_peak_K": 404.2907870418284,
+          "unfinished": 0,
+          "mean_feed_min": 190.46296296296293,
+          "reached_sp": 21,
+          "mean_time_to_sp_s": 3247.6190476190477,
+          "mean_iae": 121794.90313316033,
+          "mean_mdc_max": 0.02214144670281657,
+          "mean_mdc_pos_s": 1072.2222222222222,
+          "worst_mtsr_K": 431.61427583440144,
+          "mean_valve_moves": 408.2739253194478
+        },
+        {
+          "reactors": 27,
+          "overheated": 6,
+          "worst_peak_K": 379.15907055972843,
+          "unfinished": 2,
+          "mean_feed_min": 194.33333333333331,
+          "reached_sp": 17,
+          "mean_time_to_sp_s": 3252.9411764705883,
+          "mean_iae": 177370.4752481735,
+          "mean_mdc_max": 0.024032154019362543,
+          "mean_mdc_pos_s": 911.1111111111111,
+          "worst_mtsr_K": 422.9222567665777,
+          "mean_valve_moves": 353.53508120836545
+        },
+        {
+          "reactors": 27,
+          "overheated": 3,
+          "worst_peak_K": 374.3440039747308,
+          "unfinished": 1,
+          "mean_feed_min": 198.525641025641,
+          "reached_sp": 18,
+          "mean_time_to_sp_s": 3030.5555555555557,
+          "mean_iae": 185989.6887757615,
+          "mean_mdc_max": 0.015549473093409205,
+          "mean_mdc_pos_s": 972.2222222222222,
+          "worst_mtsr_K": 445.0491589033686,
+          "mean_valve_moves": 265.3372683714725
+        }
+      ]
+    },
+    "random": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "reactors": 100,
+          "overheated": 8,
+          "worst_peak_K": 377.3539512756749,
+          "unfinished": 0,
+          "mean_feed_min": 183.0333333333334,
+          "reached_sp": 53,
+          "mean_time_to_sp_s": 3814.1509433962265,
+          "mean_iae": 129595.69769300854,
+          "mean_mdc_max": 0.024202943070939457,
+          "mean_mdc_pos_s": 1269.0,
+          "worst_mtsr_K": 443.9917882125909,
+          "mean_valve_moves": 255.4615604009409
+        },
+        {
+          "reactors": 100,
+          "overheated": 1,
+          "worst_peak_K": 373.1813989204357,
+          "unfinished": 1,
+          "mean_feed_min": 186.1195286195286,
+          "reached_sp": 83,
+          "mean_time_to_sp_s": 4190.361445783133,
+          "mean_iae": 129389.88695588462,
+          "mean_mdc_max": 0.011278746466451247,
+          "mean_mdc_pos_s": 1100.0,
+          "worst_mtsr_K": 408.6740068574456,
+          "mean_valve_moves": 321.70095491679564
+        },
+        {
+          "reactors": 100,
+          "overheated": 7,
+          "worst_peak_K": 393.88871376536184,
+          "unfinished": 0,
+          "mean_feed_min": 182.13333333333333,
+          "reached_sp": 83,
+          "mean_time_to_sp_s": 3453.614457831325,
+          "mean_iae": 110792.89806683028,
+          "mean_mdc_max": 0.022244330826970415,
+          "mean_mdc_pos_s": 1138.5,
+          "worst_mtsr_K": 412.7153849040303,
+          "mean_valve_moves": 399.48841881695347
+        },
+        {
+          "reactors": 100,
+          "overheated": 6,
+          "worst_peak_K": 376.824536503187,
+          "unfinished": 1,
+          "mean_feed_min": 186.35521885521888,
+          "reached_sp": 64,
+          "mean_time_to_sp_s": 3786.71875,
+          "mean_iae": 139430.7246150329,
+          "mean_mdc_max": 0.029926223989125735,
+          "mean_mdc_pos_s": 1198.5,
+          "worst_mtsr_K": 425.51283169379917,
+          "mean_valve_moves": 414.73627858452727
+        },
+        {
+          "reactors": 100,
+          "overheated": 1,
+          "worst_peak_K": 373.0235393520703,
+          "unfinished": 0,
+          "mean_feed_min": 190.6833333333333,
+          "reached_sp": 74,
+          "mean_time_to_sp_s": 3870.2702702702704,
+          "mean_iae": 155376.04435528885,
+          "mean_mdc_max": 0.020596704037691524,
+          "mean_mdc_pos_s": 1213.0,
+          "worst_mtsr_K": 433.4491208176916,
+          "mean_valve_moves": 255.27407185988145
+        }
+      ]
+    },
+    "cooling_failure": {
+      "tests": 60,
+      "overheated": 0,
+      "worst_peak_K": 366.9816206767543
+    }
+  },
+  "A_random": {
+    "nominal": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 369.903909763106,
+          "unfinished": 0,
+          "mean_feed_min": 184.16666666666666,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 3450.0,
+          "mean_iae": 101597.15429556533,
+          "mean_mdc_max": 0.027294279892103424,
+          "mean_mdc_pos_s": 1050.0,
+          "worst_mtsr_K": 397.12183584760015,
+          "mean_valve_moves": 342.3670208032468
+        },
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 362.1435257049829,
+          "unfinished": 0,
+          "mean_feed_min": 192.5,
+          "reached_sp": 0,
+          "mean_time_to_sp_s": null,
+          "mean_iae": 120398.13451471252,
+          "mean_mdc_max": 0.0030168616043652896,
+          "mean_mdc_pos_s": 500.0,
+          "worst_mtsr_K": 398.0722140490684,
+          "mean_valve_moves": 184.46032281473947
+        },
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 363.4602116382023,
+          "unfinished": 0,
+          "mean_feed_min": 189.16666666666666,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 3050.0,
+          "mean_iae": 101235.09705406711,
+          "mean_mdc_max": 0.014142281413164898,
+          "mean_mdc_pos_s": 900.0,
+          "worst_mtsr_K": 396.2651807307504,
+          "mean_valve_moves": 218.6663287454054
+        },
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 369.8616918597341,
+          "unfinished": 0,
+          "mean_feed_min": 189.16666666666666,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 3100.0,
+          "mean_iae": 97663.87283869526,
+          "mean_mdc_max": 0.04356700100416536,
+          "mean_mdc_pos_s": 950.0,
+          "worst_mtsr_K": 391.19013890383997,
+          "mean_valve_moves": 293.01322128092767
+        },
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 362.8537572657554,
+          "unfinished": 0,
+          "mean_feed_min": 200.0,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 3300.0,
+          "mean_iae": 162393.81021228802,
+          "mean_mdc_max": 0.015741874874068,
+          "mean_mdc_pos_s": 900.0,
+          "worst_mtsr_K": 403.22205059941734,
+          "mean_valve_moves": 197.62504036983847
+        }
+      ]
+    },
+    "grid": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "reactors": 27,
+          "overheated": 9,
+          "worst_peak_K": 412.266383707325,
+          "unfinished": 3,
+          "mean_feed_min": 201.38888888888889,
+          "reached_sp": 19,
+          "mean_time_to_sp_s": 3581.5789473684213,
+          "mean_iae": 220270.9142420545,
+          "mean_mdc_max": 0.012471220986905085,
+          "mean_mdc_pos_s": 1035.1851851851852,
+          "worst_mtsr_K": 442.1461118903421,
+          "mean_valve_moves": 294.3609718768837
+        },
+        {
+          "reactors": 27,
+          "overheated": 5,
+          "worst_peak_K": 379.59756348995325,
+          "unfinished": 3,
+          "mean_feed_min": 206.4236111111111,
+          "reached_sp": 15,
+          "mean_time_to_sp_s": 4490.0,
+          "mean_iae": 227007.22572164438,
+          "mean_mdc_max": 0.00019974808823128008,
+          "mean_mdc_pos_s": 748.1481481481482,
+          "worst_mtsr_K": 455.8935111215133,
+          "mean_valve_moves": 234.81357929441177
+        },
+        {
+          "reactors": 27,
+          "overheated": 1,
+          "worst_peak_K": 373.5851805357197,
+          "unfinished": 3,
+          "mean_feed_min": 200.13888888888889,
+          "reached_sp": 18,
+          "mean_time_to_sp_s": 3513.8888888888887,
+          "mean_iae": 180801.92470764488,
+          "mean_mdc_max": 0.008845883519370821,
+          "mean_mdc_pos_s": 951.8518518518518,
+          "worst_mtsr_K": 409.37345479503836,
+          "mean_valve_moves": 273.7264416238703
+        },
+        {
+          "reactors": 27,
+          "overheated": 11,
+          "worst_peak_K": 390.1468130801668,
+          "unfinished": 3,
+          "mean_feed_min": 198.36805555555554,
+          "reached_sp": 18,
+          "mean_time_to_sp_s": 3044.4444444444443,
+          "mean_iae": 212593.92876290047,
+          "mean_mdc_max": 0.028194234948168924,
+          "mean_mdc_pos_s": 859.2592592592592,
+          "worst_mtsr_K": 435.58492074180003,
+          "mean_valve_moves": 271.92440886815535
+        },
+        {
+          "reactors": 27,
+          "overheated": 2,
+          "worst_peak_K": 377.4731986585264,
+          "unfinished": 4,
+          "mean_feed_min": 205.9057971014493,
+          "reached_sp": 15,
+          "mean_time_to_sp_s": 3526.6666666666665,
+          "mean_iae": 231616.92802721166,
+          "mean_mdc_max": 0.0028710191343412203,
+          "mean_mdc_pos_s": 803.7037037037037,
+          "worst_mtsr_K": 449.62495315739926,
+          "mean_valve_moves": 202.20963773622577
+        }
+      ]
+    },
+    "random": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "reactors": 100,
+          "overheated": 30,
+          "worst_peak_K": 408.4045632265148,
+          "unfinished": 4,
+          "mean_feed_min": 192.09201388888889,
+          "reached_sp": 81,
+          "mean_time_to_sp_s": 4240.740740740741,
+          "mean_iae": 186251.41418485594,
+          "mean_mdc_max": 0.01826185251783101,
+          "mean_mdc_pos_s": 1160.0,
+          "worst_mtsr_K": 452.7149322930311,
+          "mean_valve_moves": 283.89868233922766
+        },
+        {
+          "reactors": 100,
+          "overheated": 3,
+          "worst_peak_K": 375.8049498075945,
+          "unfinished": 4,
+          "mean_feed_min": 197.2482638888889,
+          "reached_sp": 39,
+          "mean_time_to_sp_s": 5102.5641025641025,
+          "mean_iae": 184178.27216448367,
+          "mean_mdc_max": 0.006260904622043314,
+          "mean_mdc_pos_s": 873.5,
+          "worst_mtsr_K": 453.53678644341574,
+          "mean_valve_moves": 222.39378670273712
+        },
+        {
+          "reactors": 100,
+          "overheated": 0,
+          "worst_peak_K": 370.0687269984671,
+          "unfinished": 2,
+          "mean_feed_min": 190.12755102040816,
+          "reached_sp": 61,
+          "mean_time_to_sp_s": 3885.245901639344,
+          "mean_iae": 145067.61159517404,
+          "mean_mdc_max": 0.014052767915844519,
+          "mean_mdc_pos_s": 1139.0,
+          "worst_mtsr_K": 405.8680529567044,
+          "mean_valve_moves": 275.5293423834814
+        },
+        {
+          "reactors": 100,
+          "overheated": 26,
+          "worst_peak_K": 384.7757938076948,
+          "unfinished": 2,
+          "mean_feed_min": 191.14795918367346,
+          "reached_sp": 80,
+          "mean_time_to_sp_s": 3073.125,
+          "mean_iae": 158642.79486051507,
+          "mean_mdc_max": 0.04081573976530316,
+          "mean_mdc_pos_s": 1070.0,
+          "worst_mtsr_K": 452.87196513809045,
+          "mean_valve_moves": 273.3961811333701
+        },
+        {
+          "reactors": 100,
+          "overheated": 0,
+          "worst_peak_K": 372.08476228425025,
+          "unfinished": 1,
+          "mean_feed_min": 203.72895622895624,
+          "reached_sp": 36,
+          "mean_time_to_sp_s": 3827.777777777778,
+          "mean_iae": 211869.31838873995,
+          "mean_mdc_max": 0.011412083585678657,
+          "mean_mdc_pos_s": 1026.0,
+          "worst_mtsr_K": 455.3396084405724,
+          "mean_valve_moves": 206.8489094674852
+        }
+      ]
+    },
+    "cooling_failure": {
+      "tests": 60,
+      "overheated": 0,
+      "worst_peak_K": 370.1815708801031
+    }
+  },
+  "B_nominal": {
+    "nominal": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 369.20189138677506,
+          "unfinished": 0,
+          "mean_feed_min": 178.33333333333334,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 2900.0,
+          "mean_iae": 88806.90773893424,
+          "mean_mdc_max": 0.030290362756430017,
+          "mean_mdc_pos_s": 1000.0,
+          "worst_mtsr_K": 394.7454843679622,
+          "mean_valve_moves": 384.3334519437147
+        },
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 367.85805849924884,
+          "unfinished": 0,
+          "mean_feed_min": 180.0,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 3050.0,
+          "mean_iae": 81400.10720051457,
+          "mean_mdc_max": 0.035284646470327446,
+          "mean_mdc_pos_s": 950.0,
+          "worst_mtsr_K": 395.4057373757981,
+          "mean_valve_moves": 279.08854927336915
+        },
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 366.4989815711739,
+          "unfinished": 0,
+          "mean_feed_min": 185.0,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 3100.0,
+          "mean_iae": 91134.55427802434,
+          "mean_mdc_max": 0.013367775521933856,
+          "mean_mdc_pos_s": 850.0,
+          "worst_mtsr_K": 396.3871804820192,
+          "mean_valve_moves": 302.41182352864786
+        },
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 367.7837281813484,
+          "unfinished": 0,
+          "mean_feed_min": 180.0,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 3050.0,
+          "mean_iae": 87489.54652256936,
+          "mean_mdc_max": 0.025658458713612248,
+          "mean_mdc_pos_s": 1050.0,
+          "worst_mtsr_K": 397.36046596943544,
+          "mean_valve_moves": 362.3625212485316
+        },
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 372.9999812024513,
+          "unfinished": 0,
+          "mean_feed_min": 177.5,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 2700.0,
+          "mean_iae": 77267.0311163885,
+          "mean_mdc_max": 0.08929171283404305,
+          "mean_mdc_pos_s": 850.0,
+          "worst_mtsr_K": 398.02352311898153,
+          "mean_valve_moves": 580.1758396744949
+        }
+      ]
+    },
+    "grid": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "reactors": 27,
+          "overheated": 12,
+          "worst_peak_K": 376.732078450552,
+          "unfinished": 2,
+          "mean_feed_min": 188.83333333333331,
+          "reached_sp": 21,
+          "mean_time_to_sp_s": 2947.6190476190477,
+          "mean_iae": 138733.57858580365,
+          "mean_mdc_max": 0.025717528308810265,
+          "mean_mdc_pos_s": 1198.148148148148,
+          "worst_mtsr_K": 409.3814144230321,
+          "mean_valve_moves": 411.7069733334994
+        },
+        {
+          "reactors": 27,
+          "overheated": 9,
+          "worst_peak_K": 378.1062202398179,
+          "unfinished": 3,
+          "mean_feed_min": 191.04166666666666,
+          "reached_sp": 18,
+          "mean_time_to_sp_s": 2811.1111111111113,
+          "mean_iae": 169851.8170342027,
+          "mean_mdc_max": 0.025353824206962704,
+          "mean_mdc_pos_s": 955.5555555555555,
+          "worst_mtsr_K": 410.72564036491025,
+          "mean_valve_moves": 373.60535372777696
+        },
+        {
+          "reactors": 27,
+          "overheated": 7,
+          "worst_peak_K": 374.0351908598359,
+          "unfinished": 1,
+          "mean_feed_min": 191.15384615384616,
+          "reached_sp": 18,
+          "mean_time_to_sp_s": 4447.222222222223,
+          "mean_iae": 152952.95763445584,
+          "mean_mdc_max": 0.011517272627285942,
+          "mean_mdc_pos_s": 1050.0,
+          "worst_mtsr_K": 429.8071921393463,
+          "mean_valve_moves": 281.5088945001188
+        },
+        {
+          "reactors": 27,
+          "overheated": 12,
+          "worst_peak_K": 377.96465527028903,
+          "unfinished": 1,
+          "mean_feed_min": 186.50641025641022,
+          "reached_sp": 21,
+          "mean_time_to_sp_s": 3169.0476190476193,
+          "mean_iae": 138018.87127008816,
+          "mean_mdc_max": 0.026223675209575328,
+          "mean_mdc_pos_s": 1164.8148148148148,
+          "worst_mtsr_K": 423.76126647478185,
+          "mean_valve_moves": 434.57372495424426
+        },
+        {
+          "reactors": 27,
+          "overheated": 14,
+          "worst_peak_K": 386.1980136963716,
+          "unfinished": 1,
+          "mean_feed_min": 182.56410256410257,
+          "reached_sp": 25,
+          "mean_time_to_sp_s": 4928.0,
+          "mean_iae": 146508.80689743633,
+          "mean_mdc_max": 0.06713389925042004,
+          "mean_mdc_pos_s": 1025.9259259259259,
+          "worst_mtsr_K": 409.4539701101221,
+          "mean_valve_moves": 650.173726347833
+        }
+      ]
+    },
+    "random": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "reactors": 100,
+          "overheated": 29,
+          "worst_peak_K": 374.6522113929193,
+          "unfinished": 0,
+          "mean_feed_min": 180.76666666666665,
+          "reached_sp": 95,
+          "mean_time_to_sp_s": 3396.315789473684,
+          "mean_iae": 111314.36394122103,
+          "mean_mdc_max": 0.031020935823631454,
+          "mean_mdc_pos_s": 1259.0,
+          "worst_mtsr_K": 407.92879713083124,
+          "mean_valve_moves": 381.1163902703266
+        },
+        {
+          "reactors": 100,
+          "overheated": 16,
+          "worst_peak_K": 376.8005181886506,
+          "unfinished": 2,
+          "mean_feed_min": 181.1224489795918,
+          "reached_sp": 80,
+          "mean_time_to_sp_s": 3144.375,
+          "mean_iae": 127160.55781864902,
+          "mean_mdc_max": 0.03057362907955894,
+          "mean_mdc_pos_s": 1223.5,
+          "worst_mtsr_K": 408.5801831345232,
+          "mean_valve_moves": 329.5213829214921
+        },
+        {
+          "reactors": 100,
+          "overheated": 0,
+          "worst_peak_K": 372.80463714772014,
+          "unfinished": 0,
+          "mean_feed_min": 183.19166666666663,
+          "reached_sp": 94,
+          "mean_time_to_sp_s": 4786.170212765957,
+          "mean_iae": 130381.60639504704,
+          "mean_mdc_max": 0.01594642739924588,
+          "mean_mdc_pos_s": 1108.5,
+          "worst_mtsr_K": 402.81270996294114,
+          "mean_valve_moves": 254.24878187734674
+        },
+        {
+          "reactors": 100,
+          "overheated": 29,
+          "worst_peak_K": 375.68706405265783,
+          "unfinished": 0,
+          "mean_feed_min": 177.70833333333331,
+          "reached_sp": 87,
+          "mean_time_to_sp_s": 3179.310344827586,
+          "mean_iae": 112038.72628527327,
+          "mean_mdc_max": 0.028431259903326508,
+          "mean_mdc_pos_s": 1258.0,
+          "worst_mtsr_K": 404.60097310463897,
+          "mean_valve_moves": 373.64911598161933
+        },
+        {
+          "reactors": 100,
+          "overheated": 49,
+          "worst_peak_K": 385.5003040621462,
+          "unfinished": 1,
+          "mean_feed_min": 173.93097643097644,
+          "reached_sp": 99,
+          "mean_time_to_sp_s": 4321.717171717171,
+          "mean_iae": 117903.87803109134,
+          "mean_mdc_max": 0.0779514029304302,
+          "mean_mdc_pos_s": 1043.0,
+          "worst_mtsr_K": 438.4065089481211,
+          "mean_valve_moves": 545.013869458936
+        }
+      ]
+    },
+    "cooling_failure": {
+      "tests": 60,
+      "overheated": 1,
+      "worst_peak_K": 374.87357769523743
+    }
+  },
+  "B_robust": {
+    "nominal": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 369.05394372147884,
+          "unfinished": 0,
+          "mean_feed_min": 183.33333333333334,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 2450.0,
+          "mean_iae": 89422.39164314314,
+          "mean_mdc_max": 0.044338501071106484,
+          "mean_mdc_pos_s": 1000.0,
+          "worst_mtsr_K": 397.7157200257785,
+          "mean_valve_moves": 536.8106683812268
+        },
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 370.879538129393,
+          "unfinished": 0,
+          "mean_feed_min": 165.83333333333334,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 9450.0,
+          "mean_iae": 106597.89092254899,
+          "mean_mdc_max": 0.04613338685265325,
+          "mean_mdc_pos_s": 950.0,
+          "worst_mtsr_K": 396.6089532470041,
+          "mean_valve_moves": 395.9441232830335
+        },
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 369.5114713205739,
+          "unfinished": 0,
+          "mean_feed_min": 179.16666666666666,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 3100.0,
+          "mean_iae": 96509.3632408914,
+          "mean_mdc_max": 0.044875942196601876,
+          "mean_mdc_pos_s": 950.0,
+          "worst_mtsr_K": 395.4424953072227,
+          "mean_valve_moves": 674.7331360853677
+        },
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 370.0514788065764,
+          "unfinished": 0,
+          "mean_feed_min": 170.83333333333334,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 2350.0,
+          "mean_iae": 97929.12474814281,
+          "mean_mdc_max": 0.04528120954296114,
+          "mean_mdc_pos_s": 1000.0,
+          "worst_mtsr_K": 396.4152469074715,
+          "mean_valve_moves": 429.11220530517505
+        },
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 368.8666970071965,
+          "unfinished": 0,
+          "mean_feed_min": 180.83333333333334,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 3450.0,
+          "mean_iae": 92533.23638378129,
+          "mean_mdc_max": 0.04414349230096126,
+          "mean_mdc_pos_s": 950.0,
+          "worst_mtsr_K": 395.6858074010664,
+          "mean_valve_moves": 411.9647597443208
+        }
+      ]
+    },
+    "grid": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "reactors": 27,
+          "overheated": 0,
+          "worst_peak_K": 372.99995280185414,
+          "unfinished": 3,
+          "mean_feed_min": 190.7638888888889,
+          "reached_sp": 21,
+          "mean_time_to_sp_s": 2747.6190476190477,
+          "mean_iae": 169255.06932116183,
+          "mean_mdc_max": 0.031230853818680737,
+          "mean_mdc_pos_s": 961.1111111111111,
+          "worst_mtsr_K": 408.33152662055,
+          "mean_valve_moves": 508.0225666507199
+        },
+        {
+          "reactors": 27,
+          "overheated": 0,
+          "worst_peak_K": 372.99999274917894,
+          "unfinished": 3,
+          "mean_feed_min": 176.77083333333334,
+          "reached_sp": 16,
+          "mean_time_to_sp_s": 6559.375,
+          "mean_iae": 181979.61243168396,
+          "mean_mdc_max": 0.03351558547197334,
+          "mean_mdc_pos_s": 990.7407407407408,
+          "worst_mtsr_K": 409.4609402896556,
+          "mean_valve_moves": 420.3120625078234
+        },
+        {
+          "reactors": 27,
+          "overheated": 0,
+          "worst_peak_K": 372.99996228960646,
+          "unfinished": 3,
+          "mean_feed_min": 189.79166666666666,
+          "reached_sp": 24,
+          "mean_time_to_sp_s": 3579.1666666666665,
+          "mean_iae": 160584.0125792664,
+          "mean_mdc_max": 0.030546746320575427,
+          "mean_mdc_pos_s": 964.8148148148148,
+          "worst_mtsr_K": 406.0365947464183,
+          "mean_valve_moves": 492.09756888446003
+        },
+        {
+          "reactors": 27,
+          "overheated": 0,
+          "worst_peak_K": 372.9997897101355,
+          "unfinished": 3,
+          "mean_feed_min": 181.42361111111111,
+          "reached_sp": 20,
+          "mean_time_to_sp_s": 3752.5,
+          "mean_iae": 161912.16977451206,
+          "mean_mdc_max": 0.026261389376306735,
+          "mean_mdc_pos_s": 1012.9629629629629,
+          "worst_mtsr_K": 409.3130173801424,
+          "mean_valve_moves": 421.8127815071861
+        },
+        {
+          "reactors": 27,
+          "overheated": 0,
+          "worst_peak_K": 372.99994192697596,
+          "unfinished": 3,
+          "mean_feed_min": 189.93055555555557,
+          "reached_sp": 22,
+          "mean_time_to_sp_s": 3675.0,
+          "mean_iae": 166138.75970763862,
+          "mean_mdc_max": 0.03155165091992788,
+          "mean_mdc_pos_s": 974.074074074074,
+          "worst_mtsr_K": 408.50635222057457,
+          "mean_valve_moves": 408.9603701442736
+        }
+      ]
+    },
+    "random": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "reactors": 100,
+          "overheated": 0,
+          "worst_peak_K": 371.76664077769703,
+          "unfinished": 3,
+          "mean_feed_min": 181.6151202749141,
+          "reached_sp": 85,
+          "mean_time_to_sp_s": 2992.9411764705883,
+          "mean_iae": 130681.65385894696,
+          "mean_mdc_max": 0.036201724098051655,
+          "mean_mdc_pos_s": 1250.5,
+          "worst_mtsr_K": 405.069377216069,
+          "mean_valve_moves": 475.25747789577224
+        },
+        {
+          "reactors": 100,
+          "overheated": 0,
+          "worst_peak_K": 372.25295309634924,
+          "unfinished": 4,
+          "mean_feed_min": 167.17881944444443,
+          "reached_sp": 80,
+          "mean_time_to_sp_s": 5598.125,
+          "mean_iae": 141412.00970985246,
+          "mean_mdc_max": 0.038231457886247586,
+          "mean_mdc_pos_s": 1210.5,
+          "worst_mtsr_K": 405.55079663570893,
+          "mean_valve_moves": 357.7954683817674
+        },
+        {
+          "reactors": 100,
+          "overheated": 0,
+          "worst_peak_K": 371.84898259358806,
+          "unfinished": 3,
+          "mean_feed_min": 178.71134020618555,
+          "reached_sp": 94,
+          "mean_time_to_sp_s": 3316.4893617021276,
+          "mean_iae": 124003.87699148303,
+          "mean_mdc_max": 0.036764505683346445,
+          "mean_mdc_pos_s": 1246.0,
+          "worst_mtsr_K": 403.41446973599966,
+          "mean_valve_moves": 517.7590155871405
+        },
+        {
+          "reactors": 100,
+          "overheated": 0,
+          "worst_peak_K": 371.7780029091598,
+          "unfinished": 2,
+          "mean_feed_min": 171.46258503401364,
+          "reached_sp": 91,
+          "mean_time_to_sp_s": 3144.5054945054944,
+          "mean_iae": 122794.23193708468,
+          "mean_mdc_max": 0.03439777449675677,
+          "mean_mdc_pos_s": 1246.0,
+          "worst_mtsr_K": 405.58725432654865,
+          "mean_valve_moves": 377.66750349800765
+        },
+        {
+          "reactors": 100,
+          "overheated": 0,
+          "worst_peak_K": 372.2418338808648,
+          "unfinished": 3,
+          "mean_feed_min": 179.65635738831617,
+          "reached_sp": 87,
+          "mean_time_to_sp_s": 3373.5632183908046,
+          "mean_iae": 126253.44940187452,
+          "mean_mdc_max": 0.03725667646651275,
+          "mean_mdc_pos_s": 1262.0,
+          "worst_mtsr_K": 404.4777242166411,
+          "mean_valve_moves": 422.44049368202747
+        }
+      ]
+    },
+    "cooling_failure": {
+      "tests": 60,
+      "overheated": 0,
+      "worst_peak_K": 372.27341940702865
+    }
+  },
+  "B_robust_pen": {
+    "nominal": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 368.5966302252612,
+          "unfinished": 0,
+          "mean_feed_min": 213.33333333333334,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 2300.0,
+          "mean_iae": 131852.87003300627,
+          "mean_mdc_max": 0.04564402677814186,
+          "mean_mdc_pos_s": 950.0,
+          "worst_mtsr_K": 384.5545593683029,
+          "mean_valve_moves": 360.58147522189904
+        },
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 369.1636130034607,
+          "unfinished": 0,
+          "mean_feed_min": 181.66666666666666,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 2250.0,
+          "mean_iae": 88293.51252591216,
+          "mean_mdc_max": 0.0460945786425849,
+          "mean_mdc_pos_s": 950.0,
+          "worst_mtsr_K": 395.9939073397648,
+          "mean_valve_moves": 386.747327643535
+        },
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 366.25869033657295,
+          "unfinished": 0,
+          "mean_feed_min": 183.33333333333334,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 2750.0,
+          "mean_iae": 87124.94723818667,
+          "mean_mdc_max": 0.046168423292102995,
+          "mean_mdc_pos_s": 950.0,
+          "worst_mtsr_K": 395.87867948420984,
+          "mean_valve_moves": 371.22600296116246
+        },
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 367.59915317302807,
+          "unfinished": 0,
+          "mean_feed_min": 183.33333333333334,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 2550.0,
+          "mean_iae": 93887.32638466482,
+          "mean_mdc_max": 0.03528984507714719,
+          "mean_mdc_pos_s": 1000.0,
+          "worst_mtsr_K": 397.8721129391147,
+          "mean_valve_moves": 411.9037967299772
+        },
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 368.2798468681773,
+          "unfinished": 0,
+          "mean_feed_min": 185.83333333333334,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 2400.0,
+          "mean_iae": 108354.8112634547,
+          "mean_mdc_max": 0.044003142162067216,
+          "mean_mdc_pos_s": 1000.0,
+          "worst_mtsr_K": 400.29196079182583,
+          "mean_valve_moves": 251.3977268253563
+        }
+      ]
+    },
+    "grid": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "reactors": 27,
+          "overheated": 0,
+          "worst_peak_K": 372.9999515232977,
+          "unfinished": 6,
+          "mean_feed_min": 214.08730158730157,
+          "reached_sp": 20,
+          "mean_time_to_sp_s": 2705.0,
+          "mean_iae": 203344.41278600338,
+          "mean_mdc_max": 0.02798185700186487,
+          "mean_mdc_pos_s": 946.2962962962963,
+          "worst_mtsr_K": 396.3418764412257,
+          "mean_valve_moves": 387.5628827969492
+        },
+        {
+          "reactors": 27,
+          "overheated": 0,
+          "worst_peak_K": 372.9998823486638,
+          "unfinished": 3,
+          "mean_feed_min": 194.4097222222222,
+          "reached_sp": 21,
+          "mean_time_to_sp_s": 2938.095238095238,
+          "mean_iae": 161621.41181581854,
+          "mean_mdc_max": 0.031629168318003095,
+          "mean_mdc_pos_s": 988.8888888888889,
+          "worst_mtsr_K": 408.4415148543324,
+          "mean_valve_moves": 388.5703474994527
+        },
+        {
+          "reactors": 27,
+          "overheated": 0,
+          "worst_peak_K": 372.9999911453982,
+          "unfinished": 4,
+          "mean_feed_min": 190.94202898550722,
+          "reached_sp": 18,
+          "mean_time_to_sp_s": 3986.1111111111113,
+          "mean_iae": 169972.18375627536,
+          "mean_mdc_max": 0.0319705445346902,
+          "mean_mdc_pos_s": 942.5925925925926,
+          "worst_mtsr_K": 411.9160864954647,
+          "mean_valve_moves": 370.1957699819697
+        },
+        {
+          "reactors": 27,
+          "overheated": 0,
+          "worst_peak_K": 372.9999171119567,
+          "unfinished": 3,
+          "mean_feed_min": 195.9027777777778,
+          "reached_sp": 22,
+          "mean_time_to_sp_s": 4118.181818181818,
+          "mean_iae": 182624.77697855807,
+          "mean_mdc_max": 0.01783621932895918,
+          "mean_mdc_pos_s": 1020.3703703703703,
+          "worst_mtsr_K": 409.00644577405274,
+          "mean_valve_moves": 340.62945167611497
+        },
+        {
+          "reactors": 27,
+          "overheated": 0,
+          "worst_peak_K": 372.99879961685747,
+          "unfinished": 8,
+          "mean_feed_min": 201.8421052631579,
+          "reached_sp": 18,
+          "mean_time_to_sp_s": 3547.222222222222,
+          "mean_iae": 226048.79902863153,
+          "mean_mdc_max": 0.0222373743210815,
+          "mean_mdc_pos_s": 950.0,
+          "worst_mtsr_K": 410.95976168487533,
+          "mean_valve_moves": 273.7573792482169
+        }
+      ]
+    },
+    "random": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "reactors": 100,
+          "overheated": 0,
+          "worst_peak_K": 371.5279346968269,
+          "unfinished": 8,
+          "mean_feed_min": 212.58152173913044,
+          "reached_sp": 76,
+          "mean_time_to_sp_s": 2675.657894736842,
+          "mean_iae": 175917.97029811956,
+          "mean_mdc_max": 0.036000163142140246,
+          "mean_mdc_pos_s": 1156.5,
+          "worst_mtsr_K": 393.9473109319356,
+          "mean_valve_moves": 393.7325556329111
+        },
+        {
+          "reactors": 100,
+          "overheated": 0,
+          "worst_peak_K": 371.7729639958929,
+          "unfinished": 2,
+          "mean_feed_min": 183.23979591836735,
+          "reached_sp": 86,
+          "mean_time_to_sp_s": 2987.2093023255816,
+          "mean_iae": 124734.68059203388,
+          "mean_mdc_max": 0.038885359664537454,
+          "mean_mdc_pos_s": 1239.5,
+          "worst_mtsr_K": 404.8652533856485,
+          "mean_valve_moves": 367.41231626006726
+        },
+        {
+          "reactors": 100,
+          "overheated": 0,
+          "worst_peak_K": 370.41769159327464,
+          "unfinished": 6,
+          "mean_feed_min": 182.60638297872342,
+          "reached_sp": 71,
+          "mean_time_to_sp_s": 2522.5352112676055,
+          "mean_iae": 133731.2613402237,
+          "mean_mdc_max": 0.038659016548820736,
+          "mean_mdc_pos_s": 1155.0,
+          "worst_mtsr_K": 407.48783081493707,
+          "mean_valve_moves": 373.52923293029596
+        },
+        {
+          "reactors": 100,
+          "overheated": 0,
+          "worst_peak_K": 371.8433612066497,
+          "unfinished": 7,
+          "mean_feed_min": 184.96415770609318,
+          "reached_sp": 87,
+          "mean_time_to_sp_s": 3194.2528735632186,
+          "mean_iae": 152723.93170062552,
+          "mean_mdc_max": 0.02520889803812455,
+          "mean_mdc_pos_s": 1188.5,
+          "worst_mtsr_K": 409.24927383330305,
+          "mean_valve_moves": 353.7524965009478
+        },
+        {
+          "reactors": 100,
+          "overheated": 0,
+          "worst_peak_K": 371.7236770885702,
+          "unfinished": 17,
+          "mean_feed_min": 192.710843373494,
+          "reached_sp": 78,
+          "mean_time_to_sp_s": 3196.7948717948716,
+          "mean_iae": 195421.7145398861,
+          "mean_mdc_max": 0.032294733475975966,
+          "mean_mdc_pos_s": 1115.5,
+          "worst_mtsr_K": 407.77722950715156,
+          "mean_valve_moves": 283.9450365439407
+        }
+      ]
+    },
+    "cooling_failure": {
+      "tests": 60,
+      "overheated": 0,
+      "worst_peak_K": 369.612479929475
+    }
+  },
+  "B_robust_pen1": {
+    "nominal": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 366.9053139092988,
+          "unfinished": 0,
+          "mean_feed_min": 180.83333333333334,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 2550.0,
+          "mean_iae": 91221.29577693298,
+          "mean_mdc_max": 0.037658164189629945,
+          "mean_mdc_pos_s": 1000.0,
+          "worst_mtsr_K": 397.49840349245204,
+          "mean_valve_moves": 359.08268814075336
+        },
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 368.70884926544926,
+          "unfinished": 0,
+          "mean_feed_min": 178.33333333333334,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 3000.0,
+          "mean_iae": 93352.42865904408,
+          "mean_mdc_max": 0.04634536041270032,
+          "mean_mdc_pos_s": 950.0,
+          "worst_mtsr_K": 396.6204089661969,
+          "mean_valve_moves": 506.33102341737225
+        },
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 368.39638174649815,
+          "unfinished": 0,
+          "mean_feed_min": 178.33333333333334,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 2300.0,
+          "mean_iae": 80645.84344024275,
+          "mean_mdc_max": 0.046238245656322785,
+          "mean_mdc_pos_s": 900.0,
+          "worst_mtsr_K": 396.48998268175836,
+          "mean_valve_moves": 426.42003865058894
+        },
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 369.06349745511545,
+          "unfinished": 0,
+          "mean_feed_min": 180.0,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 3250.0,
+          "mean_iae": 91804.66945625395,
+          "mean_mdc_max": 0.045292118638972784,
+          "mean_mdc_pos_s": 950.0,
+          "worst_mtsr_K": 392.3823192038948,
+          "mean_valve_moves": 371.482248241458
+        },
+        {
+          "reactors": 1,
+          "overheated": 0,
+          "worst_peak_K": 368.8213192111988,
+          "unfinished": 0,
+          "mean_feed_min": 181.66666666666666,
+          "reached_sp": 1,
+          "mean_time_to_sp_s": 2950.0,
+          "mean_iae": 81519.25889918844,
+          "mean_mdc_max": 0.04609233782570368,
+          "mean_mdc_pos_s": 950.0,
+          "worst_mtsr_K": 397.2900039157109,
+          "mean_valve_moves": 348.16299454561937
+        }
+      ]
+    },
+    "grid": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "reactors": 27,
+          "overheated": 0,
+          "worst_peak_K": 372.99420771594106,
+          "unfinished": 6,
+          "mean_feed_min": 184.52380952380952,
+          "reached_sp": 22,
+          "mean_time_to_sp_s": 2759.090909090909,
+          "mean_iae": 164573.26424667097,
+          "mean_mdc_max": 0.024782265851358846,
+          "mean_mdc_pos_s": 1005.5555555555555,
+          "worst_mtsr_K": 408.3631083462291,
+          "mean_valve_moves": 327.8470437580693
+        },
+        {
+          "reactors": 27,
+          "overheated": 0,
+          "worst_peak_K": 372.9999459093416,
+          "unfinished": 3,
+          "mean_feed_min": 190.7986111111111,
+          "reached_sp": 22,
+          "mean_time_to_sp_s": 3184.090909090909,
+          "mean_iae": 170169.9398556065,
+          "mean_mdc_max": 0.03357329883400942,
+          "mean_mdc_pos_s": 916.6666666666666,
+          "worst_mtsr_K": 409.4481673868853,
+          "mean_valve_moves": 527.8114751373536
+        },
+        {
+          "reactors": 27,
+          "overheated": 0,
+          "worst_peak_K": 372.9998937607618,
+          "unfinished": 3,
+          "mean_feed_min": 188.8888888888889,
+          "reached_sp": 20,
+          "mean_time_to_sp_s": 5807.5,
+          "mean_iae": 157550.18873293183,
+          "mean_mdc_max": 0.0337201834683645,
+          "mean_mdc_pos_s": 981.4814814814815,
+          "worst_mtsr_K": 404.27108591770883,
+          "mean_valve_moves": 358.1135746851448
+        },
+        {
+          "reactors": 27,
+          "overheated": 0,
+          "worst_peak_K": 372.99998796342584,
+          "unfinished": 3,
+          "mean_feed_min": 191.1111111111111,
+          "reached_sp": 22,
+          "mean_time_to_sp_s": 4195.454545454545,
+          "mean_iae": 163032.50122685792,
+          "mean_mdc_max": 0.030319176837367443,
+          "mean_mdc_pos_s": 957.4074074074074,
+          "worst_mtsr_K": 408.14748571472614,
+          "mean_valve_moves": 425.8514394559842
+        },
+        {
+          "reactors": 27,
+          "overheated": 0,
+          "worst_peak_K": 372.99996230944845,
+          "unfinished": 5,
+          "mean_feed_min": 189.6969696969697,
+          "reached_sp": 21,
+          "mean_time_to_sp_s": 2638.095238095238,
+          "mean_iae": 155925.15155599074,
+          "mean_mdc_max": 0.03201226140716809,
+          "mean_mdc_pos_s": 979.6296296296297,
+          "worst_mtsr_K": 410.42645260978156,
+          "mean_valve_moves": 353.00926666022417
+        }
+      ]
+    },
+    "random": {
+      "seeds": 5,
+      "per_seed": [
+        {
+          "reactors": 100,
+          "overheated": 0,
+          "worst_peak_K": 371.05109987254923,
+          "unfinished": 3,
+          "mean_feed_min": 180.91924398625432,
+          "reached_sp": 87,
+          "mean_time_to_sp_s": 3008.0459770114944,
+          "mean_iae": 127254.61791208819,
+          "mean_mdc_max": 0.03131673542970273,
+          "mean_mdc_pos_s": 1301.5,
+          "worst_mtsr_K": 404.9032844250172,
+          "mean_valve_moves": 358.86963047308274
+        },
+        {
+          "reactors": 100,
+          "overheated": 0,
+          "worst_peak_K": 371.6584280867136,
+          "unfinished": 8,
+          "mean_feed_min": 179.9003623188406,
+          "reached_sp": 87,
+          "mean_time_to_sp_s": 3009.1954022988507,
+          "mean_iae": 147090.8248449127,
+          "mean_mdc_max": 0.037695338554709495,
+          "mean_mdc_pos_s": 1115.0,
+          "worst_mtsr_K": 405.8080765777553,
+          "mean_valve_moves": 491.86881414465375
+        },
+        {
+          "reactors": 100,
+          "overheated": 0,
+          "worst_peak_K": 371.27837169503806,
+          "unfinished": 3,
+          "mean_feed_min": 178.4020618556701,
+          "reached_sp": 79,
+          "mean_time_to_sp_s": 4418.354430379747,
+          "mean_iae": 116828.46002553887,
+          "mean_mdc_max": 0.04025388761303575,
+          "mean_mdc_pos_s": 1229.0,
+          "worst_mtsr_K": 403.3972330142664,
+          "mean_valve_moves": 378.82984164909135
+        },
+        {
+          "reactors": 100,
+          "overheated": 0,
+          "worst_peak_K": 371.91967026603214,
+          "unfinished": 3,
+          "mean_feed_min": 180.66151202749143,
+          "reached_sp": 90,
+          "mean_time_to_sp_s": 3262.777777777778,
+          "mean_iae": 124747.0757630589,
+          "mean_mdc_max": 0.03827515281874862,
+          "mean_mdc_pos_s": 1252.0,
+          "worst_mtsr_K": 404.22267921894246,
+          "mean_valve_moves": 397.72689647282573
+        },
+        {
+          "reactors": 100,
+          "overheated": 0,
+          "worst_peak_K": 371.4236325741963,
+          "unfinished": 2,
+          "mean_feed_min": 182.35544217687072,
+          "reached_sp": 82,
+          "mean_time_to_sp_s": 2742.0731707317073,
+          "mean_iae": 119867.79042838514,
+          "mean_mdc_max": 0.038865674122866636,
+          "mean_mdc_pos_s": 1235.0,
+          "worst_mtsr_K": 406.0461730686346,
+          "mean_valve_moves": 338.1749102943061
+        }
+      ]
+    },
+    "cooling_failure": {
+      "tests": 60,
+      "overheated": 0,
+      "worst_peak_K": 371.1981165373703
+    }
+  }
+}

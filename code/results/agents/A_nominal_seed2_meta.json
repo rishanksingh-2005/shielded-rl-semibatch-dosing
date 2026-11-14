@@ -1,0 +1,29 @@
+{
+  "config": "A_nominal",
+  "env": {
+    "safety": "penalty",
+    "randomize_plant": false
+  },
+  "seed": 2,
+  "total_steps": 100000,
+  "algorithm": "TD3",
+  "settings": {
+    "learning_rate": "0.001",
+    "buffer_size": "200000",
+    "learning_starts": "2000",
+    "batch_size": "256",
+    "gamma": "0.99",
+    "tau": "0.005",
+    "train_freq": "1",
+    "gradient_steps": "1",
+    "policy_delay": "2",
+    "target_policy_noise": "0.2",
+    "target_noise_clip": "0.5",
+    "policy_kwargs": "{'net_arch': [256, 256]}"
+  },
+  "exploration_noise": 0.2,
+  "minutes": 30.65,
+  "practice_batches": 372,
+  "practice_overheated": 36,
+  "torch": "2.14.1+cpu"
+}

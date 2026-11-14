@@ -1,0 +1,757 @@
+{
+ "rows": [
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 1.0,
+   "Ti": 250.0,
+   "feed_target": 100.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 220460.74570708815
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 1.0,
+   "Ti": 250.0,
+   "feed_target": 85.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 196200.97222588595
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 1.0,
+   "Ti": 250.0,
+   "feed_target": 70.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 168844.87050392578
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 1.0,
+   "Ti": 250.0,
+   "feed_target": 60.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 153206.48658133385
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 1.0,
+   "Ti": 1000.0,
+   "feed_target": 100.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 217836.52770508354
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 1.0,
+   "Ti": 1000.0,
+   "feed_target": 60.0,
+   "overheated": 24,
+   "unfinished": 0,
+   "mean_iae": 162936.32754963523
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 1.0,
+   "Ti": 1000.0,
+   "feed_target": 85.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 196753.38739175696
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 1.0,
+   "Ti": 1000.0,
+   "feed_target": 70.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 176310.48933226053
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 1.0,
+   "Ti": 4000.0,
+   "feed_target": 100.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 212539.37936877442
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 1.0,
+   "Ti": 4000.0,
+   "feed_target": 85.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 193473.47370831014
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 1.0,
+   "Ti": 4000.0,
+   "feed_target": 70.0,
+   "overheated": 24,
+   "unfinished": 0,
+   "mean_iae": 185950.64607617148
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 1.0,
+   "Ti": 4000.0,
+   "feed_target": 60.0,
+   "overheated": 19,
+   "unfinished": 0,
+   "mean_iae": 199784.35368543013
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 2.0,
+   "Ti": 250.0,
+   "feed_target": 85.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 190197.03407043443
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 2.0,
+   "Ti": 250.0,
+   "feed_target": 100.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 217471.96671937106
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 2.0,
+   "Ti": 250.0,
+   "feed_target": 70.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 159497.11442578654
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 2.0,
+   "Ti": 250.0,
+   "feed_target": 60.0,
+   "overheated": 24,
+   "unfinished": 0,
+   "mean_iae": 140044.1199182573
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 2.0,
+   "Ti": 1000.0,
+   "feed_target": 85.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 190340.44356761652
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 2.0,
+   "Ti": 1000.0,
+   "feed_target": 100.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 214642.6227412196
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 2.0,
+   "Ti": 1000.0,
+   "feed_target": 70.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 158026.0755721753
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 2.0,
+   "Ti": 1000.0,
+   "feed_target": 60.0,
+   "overheated": 24,
+   "unfinished": 0,
+   "mean_iae": 133579.79003936856
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 2.0,
+   "Ti": 4000.0,
+   "feed_target": 85.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 183097.81956932595
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 2.0,
+   "Ti": 4000.0,
+   "feed_target": 70.0,
+   "overheated": 24,
+   "unfinished": 0,
+   "mean_iae": 162605.08644981682
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 2.0,
+   "Ti": 4000.0,
+   "feed_target": 100.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 208030.49887875462
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 2.0,
+   "Ti": 4000.0,
+   "feed_target": 60.0,
+   "overheated": 19,
+   "unfinished": 0,
+   "mean_iae": 159129.94634059301
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 5.0,
+   "Ti": 250.0,
+   "feed_target": 85.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 186285.78431774507
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 5.0,
+   "Ti": 250.0,
+   "feed_target": 100.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 214971.64133649712
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 5.0,
+   "Ti": 250.0,
+   "feed_target": 70.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 151354.14110396648
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 5.0,
+   "Ti": 250.0,
+   "feed_target": 60.0,
+   "overheated": 24,
+   "unfinished": 0,
+   "mean_iae": 130306.0889642544
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 5.0,
+   "Ti": 1000.0,
+   "feed_target": 100.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 208036.6083387273
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 5.0,
+   "Ti": 1000.0,
+   "feed_target": 85.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 177747.31214273887
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 5.0,
+   "Ti": 1000.0,
+   "feed_target": 70.0,
+   "overheated": 25,
+   "unfinished": 0,
+   "mean_iae": 139257.16291465194
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 5.0,
+   "Ti": 1000.0,
+   "feed_target": 60.0,
+   "overheated": 21,
+   "unfinished": 0,
+   "mean_iae": 112793.51461151487
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 5.0,
+   "Ti": 4000.0,
+   "feed_target": 85.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 175466.66109130238
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 5.0,
+   "Ti": 4000.0,
+   "feed_target": 100.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 205788.00896634924
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 5.0,
+   "Ti": 4000.0,
+   "feed_target": 70.0,
+   "overheated": 23,
+   "unfinished": 0,
+   "mean_iae": 138613.10014219655
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 5.0,
+   "Ti": 4000.0,
+   "feed_target": 60.0,
+   "overheated": 17,
+   "unfinished": 0,
+   "mean_iae": 119942.60612740513
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 10.0,
+   "Ti": 250.0,
+   "feed_target": 100.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 214129.17692596317
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 10.0,
+   "Ti": 250.0,
+   "feed_target": 85.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 184348.85215510707
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 10.0,
+   "Ti": 250.0,
+   "feed_target": 70.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 148118.49368196347
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 10.0,
+   "Ti": 250.0,
+   "feed_target": 60.0,
+   "overheated": 24,
+   "unfinished": 0,
+   "mean_iae": 125299.15001534278
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 10.0,
+   "Ti": 1000.0,
+   "feed_target": 100.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 205229.94098544528
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 10.0,
+   "Ti": 1000.0,
+   "feed_target": 85.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 173344.18941118498
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 10.0,
+   "Ti": 1000.0,
+   "feed_target": 70.0,
+   "overheated": 25,
+   "unfinished": 0,
+   "mean_iae": 133101.78016563208
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 10.0,
+   "Ti": 1000.0,
+   "feed_target": 60.0,
+   "overheated": 21,
+   "unfinished": 0,
+   "mean_iae": 105987.54424611658
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 10.0,
+   "Ti": 4000.0,
+   "feed_target": 100.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 207362.8966329682
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 10.0,
+   "Ti": 4000.0,
+   "feed_target": 70.0,
+   "overheated": 22,
+   "unfinished": 0,
+   "mean_iae": 137443.97528949726
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 10.0,
+   "Ti": 4000.0,
+   "feed_target": 85.0,
+   "overheated": 27,
+   "unfinished": 0,
+   "mean_iae": 177867.93824446553
+  },
+  {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 10.0,
+   "Ti": 4000.0,
+   "feed_target": 60.0,
+   "overheated": 17,
+   "unfinished": 0,
+   "mean_iae": 113492.69601884986
+  },
+  {
+   "kind": "brake",
+   "brake": "A",
+   "Kp": 1.0,
+   "Ti": 250.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 0,
+   "mean_iae": 105170.49684742231
+  },
+  {
+   "kind": "brake",
+   "brake": "A",
+   "Kp": 2.0,
+   "Ti": 250.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 0,
+   "mean_iae": 99103.6158521964
+  },
+  {
+   "kind": "brake",
+   "brake": "A",
+   "Kp": 1.0,
+   "Ti": 4000.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 0,
+   "mean_iae": 115669.66479230783
+  },
+  {
+   "kind": "brake",
+   "brake": "A",
+   "Kp": 1.0,
+   "Ti": 1000.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 0,
+   "mean_iae": 110673.27923977672
+  },
+  {
+   "kind": "brake",
+   "brake": "A",
+   "Kp": 2.0,
+   "Ti": 1000.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 0,
+   "mean_iae": 101552.2662645921
+  },
+  {
+   "kind": "brake",
+   "brake": "A",
+   "Kp": 2.0,
+   "Ti": 4000.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 0,
+   "mean_iae": 106960.32526602066
+  },
+  {
+   "kind": "brake",
+   "brake": "A",
+   "Kp": 5.0,
+   "Ti": 1000.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 0,
+   "mean_iae": 95715.79776329364
+  },
+  {
+   "kind": "brake",
+   "brake": "A",
+   "Kp": 5.0,
+   "Ti": 250.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 0,
+   "mean_iae": 95288.96166469091
+  },
+  {
+   "kind": "brake",
+   "brake": "A",
+   "Kp": 5.0,
+   "Ti": 4000.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 0,
+   "mean_iae": 99068.52754940608
+  },
+  {
+   "kind": "brake",
+   "brake": "A",
+   "Kp": 10.0,
+   "Ti": 1000.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 0,
+   "mean_iae": 93298.50018872292
+  },
+  {
+   "kind": "brake",
+   "brake": "A",
+   "Kp": 10.0,
+   "Ti": 250.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 0,
+   "mean_iae": 94139.98771890595
+  },
+  {
+   "kind": "brake",
+   "brake": "A",
+   "Kp": 10.0,
+   "Ti": 4000.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 0,
+   "mean_iae": 97956.85282536807
+  },
+  {
+   "kind": "brake",
+   "brake": "B",
+   "Kp": 1.0,
+   "Ti": 4000.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 0,
+   "mean_iae": 117159.32226682807
+  },
+  {
+   "kind": "brake",
+   "brake": "B",
+   "Kp": 1.0,
+   "Ti": 1000.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 0,
+   "mean_iae": 111348.9837159877
+  },
+  {
+   "kind": "brake",
+   "brake": "B",
+   "Kp": 2.0,
+   "Ti": 250.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 0,
+   "mean_iae": 101068.39365094893
+  },
+  {
+   "kind": "brake",
+   "brake": "B",
+   "Kp": 1.0,
+   "Ti": 250.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 1,
+   "mean_iae": 109126.65796571075
+  },
+  {
+   "kind": "brake",
+   "brake": "B",
+   "Kp": 2.0,
+   "Ti": 4000.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 0,
+   "mean_iae": 108049.11490053877
+  },
+  {
+   "kind": "brake",
+   "brake": "B",
+   "Kp": 2.0,
+   "Ti": 1000.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 0,
+   "mean_iae": 104085.17776369263
+  },
+  {
+   "kind": "brake",
+   "brake": "B",
+   "Kp": 5.0,
+   "Ti": 1000.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 0,
+   "mean_iae": 97683.32491707183
+  },
+  {
+   "kind": "brake",
+   "brake": "B",
+   "Kp": 5.0,
+   "Ti": 4000.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 0,
+   "mean_iae": 101141.24964649639
+  },
+  {
+   "kind": "brake",
+   "brake": "B",
+   "Kp": 5.0,
+   "Ti": 250.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 0,
+   "mean_iae": 96281.11415679485
+  },
+  {
+   "kind": "brake",
+   "brake": "B",
+   "Kp": 10.0,
+   "Ti": 250.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 0,
+   "mean_iae": 94723.57667211728
+  },
+  {
+   "kind": "brake",
+   "brake": "B",
+   "Kp": 10.0,
+   "Ti": 1000.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 0,
+   "mean_iae": 94769.73957047299
+  },
+  {
+   "kind": "brake",
+   "brake": "B",
+   "Kp": 10.0,
+   "Ti": 4000.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 0,
+   "mean_iae": 99940.28719326461
+  }
+ ],
+ "chosen": {
+  "no brake": {
+   "kind": "no brake",
+   "brake": null,
+   "Kp": 10.0,
+   "Ti": 1000.0,
+   "feed_target": 60.0,
+   "overheated": 21,
+   "unfinished": 0,
+   "mean_iae": 105987.54424611658,
+   "safe_on_grid": false
+  },
+  "A": {
+   "kind": "brake",
+   "brake": "A",
+   "Kp": 10.0,
+   "Ti": 1000.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 0,
+   "mean_iae": 93298.50018872292
+  },
+  "B": {
+   "kind": "brake",
+   "brake": "B",
+   "Kp": 10.0,
+   "Ti": 250.0,
+   "feed_target": 100.0,
+   "overheated": 0,
+   "unfinished": 0,
+   "mean_iae": 94723.57667211728
+  }
+ }
+}

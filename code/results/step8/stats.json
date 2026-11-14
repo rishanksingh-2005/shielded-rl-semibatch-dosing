@@ -1,0 +1,189 @@
+{
+  "note": "Fisher exact tests pool batches over seeds (treated as independent). 95 % intervals: Clopper-Pearson.",
+  "reactor2_common_test_reactors_for_IAE": 74,
+  "tests": [
+    {
+      "reactor": 1,
+      "ours": "Driver B, careful brake",
+      "other": "PID, robust tuned",
+      "ours_overheated": "0/635",
+      "other_overheated": "0/127",
+      "p_value": 1.0
+    },
+    {
+      "reactor": 1,
+      "ours": "Driver B, careful brake",
+      "other": "Careful brake, no AI",
+      "ours_overheated": "0/635",
+      "other_overheated": "0/127",
+      "p_value": 1.0
+    },
+    {
+      "reactor": 1,
+      "ours": "Driver B, careful brake",
+      "other": "Oracle brake (knows true reactor)",
+      "ours_overheated": "0/635",
+      "other_overheated": "0/127",
+      "p_value": 1.0
+    },
+    {
+      "reactor": 1,
+      "ours": "Driver B, careful brake",
+      "other": "Driver A, penalty, nominal practice",
+      "ours_overheated": "0/635",
+      "other_overheated": "126/635",
+      "p_value": 2.382148683307089e-41
+    },
+    {
+      "reactor": 1,
+      "ours": "Driver B, careful brake",
+      "other": "Driver A, penalty, random practice",
+      "ours_overheated": "0/635",
+      "other_overheated": "11/635",
+      "p_value": 0.0009348350833521023
+    },
+    {
+      "reactor": 1,
+      "ours": "Driver B, careful brake",
+      "other": "Driver B, normal brake",
+      "ours_overheated": "0/635",
+      "other_overheated": "306/635",
+      "p_value": 6.416701032181566e-114
+    },
+    {
+      "reactor": 1,
+      "ours": "Driver B, careful brake",
+      "other": "Driver A, penalty, nominal practice",
+      "what": "practice",
+      "ours_overheated": "0/2376",
+      "other_overheated": "305/1971",
+      "p_value": 1.5467265584254861e-111
+    },
+    {
+      "reactor": 1,
+      "ours": "Driver B, careful brake",
+      "other": "Driver A, penalty, random practice",
+      "what": "practice",
+      "ours_overheated": "0/2376",
+      "other_overheated": "190/1983",
+      "p_value": 5.744920026221413e-68
+    },
+    {
+      "reactor": 1,
+      "ours": "Driver B, careful brake",
+      "other": "Driver B, normal brake",
+      "what": "practice",
+      "ours_overheated": "0/2376",
+      "other_overheated": "0/2596",
+      "p_value": 1.0
+    },
+    {
+      "reactor": 2,
+      "ours": "Driver B, careful brake + override penalty",
+      "other": "PI, best tracking (no safe PI exists)",
+      "ours_overheated": "0/635",
+      "other_overheated": "88/127",
+      "p_value": 6.725432563030279e-85
+    },
+    {
+      "reactor": 2,
+      "ours": "Driver B, careful brake + override penalty",
+      "other": "PI + careful brake",
+      "ours_overheated": "0/635",
+      "other_overheated": "0/127",
+      "p_value": 1.0
+    },
+    {
+      "reactor": 2,
+      "ours": "Driver B, careful brake + override penalty",
+      "other": "Careful brake, no AI",
+      "ours_overheated": "0/635",
+      "other_overheated": "0/127",
+      "p_value": 1.0
+    },
+    {
+      "reactor": 2,
+      "ours": "Driver B, careful brake + override penalty",
+      "other": "Oracle brake (knows true reactor)",
+      "ours_overheated": "0/635",
+      "other_overheated": "0/127",
+      "p_value": 1.0
+    },
+    {
+      "reactor": 2,
+      "ours": "Driver B, careful brake + override penalty",
+      "other": "Driver A, penalty, nominal practice (= Fricz 2026)",
+      "ours_overheated": "0/635",
+      "other_overheated": "48/635",
+      "p_value": 2.8233592410134357e-15
+    },
+    {
+      "reactor": 2,
+      "ours": "Driver B, careful brake + override penalty",
+      "other": "Driver A, penalty, random practice",
+      "ours_overheated": "0/635",
+      "other_overheated": "87/635",
+      "p_value": 5.462694709864861e-28
+    },
+    {
+      "reactor": 2,
+      "ours": "Driver B, careful brake + override penalty",
+      "other": "Driver B, normal brake",
+      "ours_overheated": "0/635",
+      "other_overheated": "177/635",
+      "p_value": 6.388706841497171e-60
+    },
+    {
+      "reactor": 2,
+      "ours": "Driver B, careful brake + override penalty",
+      "other": "Driver B, careful brake",
+      "ours_overheated": "0/635",
+      "other_overheated": "0/635",
+      "p_value": 1.0
+    },
+    {
+      "reactor": 2,
+      "ours": "Driver B, careful brake + override penalty",
+      "other": "Driver A, penalty, nominal practice (= Fricz 2026)",
+      "what": "practice",
+      "ours_overheated": "0/3054",
+      "other_overheated": "635/3161",
+      "p_value": 3.7365504445486028e-202
+    },
+    {
+      "reactor": 2,
+      "ours": "Driver B, careful brake + override penalty",
+      "other": "Driver A, penalty, random practice",
+      "what": "practice",
+      "ours_overheated": "0/3054",
+      "other_overheated": "689/2941",
+      "p_value": 4.572329228342888e-234
+    },
+    {
+      "reactor": 2,
+      "ours": "Driver B, careful brake + override penalty",
+      "other": "Driver B, normal brake",
+      "what": "practice",
+      "ours_overheated": "0/3054",
+      "other_overheated": "0/3145",
+      "p_value": 1.0
+    },
+    {
+      "reactor": 2,
+      "ours": "Driver B, careful brake + override penalty",
+      "other": "Driver B, careful brake",
+      "what": "practice",
+      "ours_overheated": "0/3054",
+      "other_overheated": "0/3113",
+      "p_value": 1.0
+    }
+  ],
+  "reactor2_ours_vs_brake_alone_IAE": {
+    "reactors": 74,
+    "ours_mean_gap_pct": -4.6,
+    "brake_alone_mean_gap_pct": 18.0,
+    "ours_better_on": 70,
+    "wilcoxon_p": 6.8550347179696135e-12,
+    "note": "paired over test reactors; ours = mean over 5 seeds per reactor"
+  }
+}

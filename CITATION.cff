@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Shielded reinforcement learning for exothermic semi-batch dosing under model mismatch: code and results"
+authors:
+  - family-names: Singh
+    given-names: Rishank
+    affiliation: "Department of Chemical Engineering, Delhi Technological University (DTU), Delhi, India"
+version: "1.0.0"
+date-released: 2026-11-14
+license: MIT
+keywords:
+  - safe reinforcement learning
+  - semi-batch reactor
+  - thermal runaway
+  - MTSR
+  - safety shield
+  - model mismatch
+  - TD3

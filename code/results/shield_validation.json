@@ -1,0 +1,82 @@
+[
+  {
+    "brake": "robust",
+    "chemistry_range_pct": 20,
+    "driver": "full speed",
+    "reactors": 500,
+    "overheated": 0,
+    "worst_peak_C": 49.9384,
+    "mean_batch_min": 34.62233333333334,
+    "unfinished": 0
+  },
+  {
+    "brake": "robust",
+    "chemistry_range_pct": 20,
+    "driver": "random",
+    "reactors": 500,
+    "overheated": 0,
+    "worst_peak_C": 49.9396,
+    "mean_batch_min": 38.59133333333334,
+    "unfinished": 0
+  },
+  {
+    "brake": "robust",
+    "chemistry_range_pct": 30,
+    "driver": "full speed",
+    "reactors": 500,
+    "overheated": 11,
+    "worst_peak_C": 52.588,
+    "mean_batch_min": 35.705333333333336,
+    "unfinished": 0
+  },
+  {
+    "brake": "robust",
+    "chemistry_range_pct": 30,
+    "driver": "random",
+    "reactors": 500,
+    "overheated": 7,
+    "worst_peak_C": 51.1909,
+    "mean_batch_min": 39.99733333333333,
+    "unfinished": 0
+  },
+  {
+    "brake": "nominal",
+    "chemistry_range_pct": 20,
+    "driver": "full speed",
+    "reactors": 500,
+    "overheated": 269,
+    "worst_peak_C": 56.5162,
+    "mean_batch_min": 32.26266666666667,
+    "unfinished": 0
+  },
+  {
+    "brake": "nominal",
+    "chemistry_range_pct": 20,
+    "driver": "random",
+    "reactors": 500,
+    "overheated": 237,
+    "worst_peak_C": 52.5412,
+    "mean_batch_min": 37.36333333333333,
+    "unfinished": 0
+  },
+  {
+    "brake": "nominal",
+    "chemistry_range_pct": 30,
+    "driver": "full speed",
+    "reactors": 500,
+    "overheated": 268,
+    "worst_peak_C": 59.0984,
+    "mean_batch_min": 33.08866666666667,
+    "unfinished": 0
+  },
+  {
+    "brake": "nominal",
+    "chemistry_range_pct": 30,
+    "driver": "random",
+    "reactors": 500,
+    "overheated": 235,
+    "worst_peak_C": 53.986,
+    "mean_batch_min": 38.81133333333333,
+    "unfinished": 0
+  }
+]

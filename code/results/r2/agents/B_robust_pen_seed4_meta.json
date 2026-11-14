@@ -1,0 +1,34 @@
+{
+  "reactor": 2,
+  "config": "B_robust_pen",
+  "env": {
+    "safety": "shield",
+    "shield_type": "robust",
+    "randomize_plant": true,
+    "override_penalty": 5.0
+  },
+  "lam": 1000.0,
+  "seed": 4,
+  "total_steps": 150000,
+  "algorithm": "TD3",
+  "settings": {
+    "learning_rate": "0.0001",
+    "buffer_size": "100000",
+    "learning_starts": "2000",
+    "batch_size": "512",
+    "gamma": "0.99",
+    "tau": "0.001",
+    "train_freq": "1",
+    "gradient_steps": "1",
+    "policy_delay": "2",
+    "target_policy_noise": "0.2",
+    "target_noise_clip": "0.5",
+    "policy_kwargs": "{'net_arch': [256, 256]}"
+  },
+  "exploration_noise": 0.2,
+  "pretrain_episodes": 45,
+  "minutes": 72.35,
+  "practice_batches": 587,
+  "practice_overheated": 0,
+  "torch": "2.14.1+cpu"
+}

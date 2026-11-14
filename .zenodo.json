@@ -1,0 +1,13 @@
+{
+  "title": "Shielded reinforcement learning for exothermic semi-batch dosing under model mismatch: code and results",
+  "upload_type": "software",
+  "description": "Code, trained TD3 agents and result tables for a simulation study of a hard safety shield (backup-policy look-ahead with an MTSR end point, checked on worst-case corner models) around a reinforcement-learning dosing agent for exothermic semi-batch reactors. Two reactors: acetic anhydride hydrolysis in a 1 L lab reactor, and the A + B -> C benchmark of Fricz et al. (2026). Simulation only; not a design for a real plant.",
+  "creators": [
+    {
+      "name": "Singh, Rishank",
+      "affiliation": "Department of Chemical Engineering, Delhi Technological University (DTU), Delhi, India"
+    }
+  ],
+  "license": "MIT",
+  "keywords": ["safe reinforcement learning", "semi-batch reactor", "thermal runaway", "MTSR", "safety shield", "model mismatch", "TD3"]
+}

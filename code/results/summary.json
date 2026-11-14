@@ -1,0 +1,116 @@
+{
+  "nominal": {
+    "Fixed timing": {
+      "batch_min": 37.333333333333336,
+      "T_peak_C": 49.98488218804266,
+      "violated": false,
+      "max_mtsr_C": 56.632474822220445
+    },
+    "PID": {
+      "batch_min": 33.0,
+      "T_peak_C": 49.56947937457164,
+      "violated": false,
+      "max_mtsr_C": 59.15124191231445
+    },
+    "Fixed timing (robust tuned)": {
+      "batch_min": 56.333333333333336,
+      "T_peak_C": 40.297967643167794,
+      "violated": false,
+      "max_mtsr_C": 46.91245459302246
+    },
+    "PID (robust tuned)": {
+      "batch_min": 33.166666666666664,
+      "T_peak_C": 49.2628004295384,
+      "violated": false,
+      "max_mtsr_C": 59.97480704895503
+    },
+    "Max feed + nominal shield": {
+      "batch_min": 31.666666666666668,
+      "T_peak_C": 49.998551929950054,
+      "violated": false,
+      "max_mtsr_C": 65.6181981487735
+    },
+    "Max feed + robust shield": {
+      "batch_min": 33.833333333333336,
+      "T_peak_C": 48.661598050589475,
+      "violated": false,
+      "max_mtsr_C": 57.88931511026192
+    }
+  },
+  "mismatch_summary": {
+    "Fixed timing": {
+      "plants": 27,
+      "plants_overheated": 13,
+      "worst_peak_C": 63.351963214812486,
+      "mean_batch_min": 37.98148148148148,
+      "mean_slower_than_oracle_pct": 20.367179640834685,
+      "unfinished": 0
+    },
+    "PID": {
+      "plants": 27,
+      "plants_overheated": 4,
+      "worst_peak_C": 50.36552657401393,
+      "mean_batch_min": 34.160493827160494,
+      "mean_slower_than_oracle_pct": 4.642255348856001,
+      "unfinished": 0
+    },
+    "Fixed timing (robust tuned)": {
+      "plants": 27,
+      "plants_overheated": 0,
+      "worst_peak_C": 49.99016010568948,
+      "mean_batch_min": 56.7962962962963,
+      "mean_slower_than_oracle_pct": 79.52081439641951,
+      "unfinished": 0
+    },
+    "PID (robust tuned)": {
+      "plants": 27,
+      "plants_overheated": 0,
+      "worst_peak_C": 49.78100771893514,
+      "mean_batch_min": 34.44444444444444,
+      "mean_slower_than_oracle_pct": 5.277136187845299,
+      "unfinished": 0
+    },
+    "Max feed + nominal shield": {
+      "plants": 27,
+      "plants_overheated": 14,
+      "worst_peak_C": 56.604886090286755,
+      "mean_batch_min": 32.876543209876544,
+      "mean_slower_than_oracle_pct": 0.5867135297463809,
+      "unfinished": 0
+    },
+    "Max feed + robust shield": {
+      "plants": 27,
+      "plants_overheated": 0,
+      "worst_peak_C": 49.99536574180769,
+      "mean_batch_min": 35.456790123456784,
+      "mean_slower_than_oracle_pct": 8.806684011784695,
+      "unfinished": 0
+    },
+    "Oracle (shield knows true plant)": {
+      "plants": 27,
+      "plants_overheated": 0,
+      "worst_peak_C": 50.00000000009345,
+      "mean_batch_min": 32.7962962962963,
+      "mean_slower_than_oracle_pct": 0.0,
+      "unfinished": 0
+    }
+  },
+  "tuned": {
+    "fixed_F_mL_min": 8.824733383604437,
+    "fixed_dose_min": 32.075660240187446,
+    "pid": {
+      "T_sp_C": 50.0,
+      "Kp": 2.0,
+      "Ti": 1200.0,
+      "Td": 180.0
+    },
+    "fixed_robust_F_mL_min": 5.774198664293643,
+    "fixed_robust_dose_min": 49.021373558397,
+    "pid_robust": {
+      "T_sp_C": 49.0,
+      "Kp": 4.0,
+      "Ti": 1200.0,
+      "Td": 180.0
+    }
+  }
+}

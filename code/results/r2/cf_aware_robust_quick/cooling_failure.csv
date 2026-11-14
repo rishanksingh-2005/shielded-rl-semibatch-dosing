@@ -1,0 +1,37 @@
+method,seed,failure_at_s,T_peak_K,overheated
+Max feed + brake (one valve),,600,340.0,False
+Max feed + brake (one valve),,1200,355.94497507650897,False
+Max feed + brake (one valve),,1800,360.22349116463397,False
+Max feed + brake (one valve),,2400,368.045170520507,False
+Max feed + brake (one valve),,3000,369.8245402882003,False
+Max feed + brake (one valve),,3600,369.7394114143803,False
+Max feed + brake (one valve),,4200,369.58936242159837,False
+Max feed + brake (one valve),,4800,369.37555149951595,False
+Max feed + brake (one valve),,5400,369.3226295142185,False
+Max feed + brake (one valve),,6000,369.3226295142185,False
+Max feed + brake (one valve),,6600,369.3226295142185,False
+Max feed + brake (one valve),,7200,369.3226295142185,False
+Coolant PI + max feed + brake A,,600,340.0,False
+Coolant PI + max feed + brake A,,1200,360.2750808268749,False
+Coolant PI + max feed + brake A,,1800,367.8494260495936,False
+Coolant PI + max feed + brake A,,2400,369.8953804265099,False
+Coolant PI + max feed + brake A,,3000,369.635515751385,False
+Coolant PI + max feed + brake A,,3600,369.5062882304055,False
+Coolant PI + max feed + brake A,,4200,369.5062882304055,False
+Coolant PI + max feed + brake A,,4800,369.5062882304055,False
+Coolant PI + max feed + brake A,,5400,369.5062882304055,False
+Coolant PI + max feed + brake A,,6000,369.5062882304055,False
+Coolant PI + max feed + brake A,,6600,369.5062882304055,False
+Coolant PI + max feed + brake A,,7200,369.5062882304055,False
+Coolant PI + max feed + brake B,,600,340.0,False
+Coolant PI + max feed + brake B,,1200,360.2750808268749,False
+Coolant PI + max feed + brake B,,1800,368.66795787151506,False
+Coolant PI + max feed + brake B,,2400,370.4652502029209,False
+Coolant PI + max feed + brake B,,3000,370.28634432389606,False
+Coolant PI + max feed + brake B,,3600,370.28634432389606,False
+Coolant PI + max feed + brake B,,4200,370.28634432389606,False
+Coolant PI + max feed + brake B,,4800,370.28634432389606,False
+Coolant PI + max feed + brake B,,5400,370.28634432389606,False
+Coolant PI + max feed + brake B,,6000,370.28634432389606,False
+Coolant PI + max feed + brake B,,6600,370.28634432389606,False
+Coolant PI + max feed + brake B,,7200,370.28634432389606,False

@@ -1,0 +1,38 @@
+{
+ "Max feed + brake (one valve)": {
+  "seeds": 1,
+  "test": 27,
+  "overheated": 0,
+  "unfinished": 6,
+  "mean_iae": 218504.3366980706,
+  "median_feed_min": 204.16666666666666,
+  "worst_peak_K": 372.92670502480314,
+  "cf_tests": 12,
+  "cf_overheated": 0,
+  "cf_worst_peak_K": 369.8245402882003
+ },
+ "Coolant PI + max feed + brake A": {
+  "seeds": 1,
+  "test": 27,
+  "overheated": 0,
+  "unfinished": 27,
+  "mean_iae": 86869.78845711431,
+  "median_feed_min": null,
+  "worst_peak_K": 372.9507888049713,
+  "cf_tests": 12,
+  "cf_overheated": 0,
+  "cf_worst_peak_K": 369.8953804265099
+ },
+ "Coolant PI + max feed + brake B": {
+  "seeds": 1,
+  "test": 27,
+  "overheated": 0,
+  "unfinished": 27,
+  "mean_iae": 84362.79072728462,
+  "median_feed_min": null,
+  "worst_peak_K": 372.97866415780476,
+  "cf_tests": 12,
+  "cf_overheated": 0,
+  "cf_worst_peak_K": 370.4652502029209
+ }
+}
