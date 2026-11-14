@@ -1,5 +1,7 @@
 # Shielded reinforcement learning for exothermic semi-batch dosing under model mismatch
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24216607.svg)](https://doi.org/10.5281/zenodo.24216607)
+
 Code, trained agents and result tables for the paper
 
 > R. Singh, *Shielded reinforcement learning for exothermic semi-batch dosing under model mismatch: when does the agent help?*
@@ -67,4 +69,7 @@ MIT (see `LICENSE`).
 
 ## How to cite
 
-See `CITATION.cff`, or use the Zenodo DOI shown on this page once a release is archived.
+Singh, R. (2026). *Shielded reinforcement learning for exothermic semi-batch dosing under model mismatch: code and results* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.24216607
+
+`CITATION.cff` has the same information in machine-readable form (GitHub shows it as "Cite this repository").
+The DOI above points to version 1.0.0; https://doi.org/10.5281/zenodo.24216606 always points to the latest version.
