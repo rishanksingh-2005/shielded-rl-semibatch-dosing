@@ -6,6 +6,8 @@ authors:
     given-names: Rishank
     affiliation: "Department of Chemical Engineering, Delhi Technological University (DTU), Delhi, India"
 version: "1.0.0"
+doi: 10.5281/zenodo.24216607
+repository-code: "https://github.com/rishanksingh-2005/shielded-rl-semibatch-dosing"
 date-released: 2026-11-14
 license: MIT
 keywords:
